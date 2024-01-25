@@ -3,6 +3,7 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import placeholder from "../public/assets/place-holder.jpg";
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ return(
     <>
     <Container fluid className='p-0'>
       
-    <Image  className='welcome-image m-0' src="/assets/place-holder.jpg" />
+    <Image  className='welcome-image m-0' src={placeholder} />
 
     <Row className="text-center">
   

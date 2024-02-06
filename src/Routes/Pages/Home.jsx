@@ -3,7 +3,7 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import placeholder from "../public/assets/place-holder.jpg";
+import HomeBarView from '../../images/HomeBarView.png';
 
 
 export default function Home() {
@@ -13,23 +13,22 @@ export default function Home() {
 return(
     <>
     <Container fluid className='p-0'>
-      
-    <Image  className='welcome-image m-0' src={placeholder} />
+      <img src={HomeBarView} alt='View of Shueys Bar'/>
 
-    <Row className="text-center">
+
+    <Row className="text-center mt-3">
   
-        <h2 className='heading'>specials</h2>
+        <h2 className='heading'>Specials</h2>
 
     </Row>
 
-    <Row>
-        <Col sm={12}> <hr/>
-        <hr/>
-        <hr/>
-        <hr/></Col>
+    <Row className='d-flex align-items-center'> 
+        <Col xs={12} className="specials"> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates neque assumenda, recusandae fugit deleniti incidunt, ipsam suscipit fugiat temporibus inventore asperiores facilis, placeat numquam sint odit! Minima aspernatur veritatis et, maiores deserunt consequatur molestiae quae optio perspiciatis a! Quasi, eos.</p>
+        </Col>
 
-        <Col>
-        <Image className='specials-image m-4' src="/assets/place-holder.jpg"  /></Col>
+        {/* <Col xs={10} className=""> */}
+
        
     </Row>
 

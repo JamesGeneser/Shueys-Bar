@@ -3,14 +3,24 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from "react-router-dom";
-import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+
+import ShueysLogo from '../images/ShueysLogo.png';
+import FacebookLogo from '../images/FacebookLogo.svg'
+
 
 function Navigation() {
   return (
     <div>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand className="shueys-brand mt-5 p-2" as={NavLink} to="/" >Shueys</Navbar.Brand>
+
+        <Navbar.Brand className="shueys-brand mt-5 p-2" as={NavLink} to="/" >
+<img src={ShueysLogo} alt="Shueys Logo" className="shueys-logo"/>
+         
+        </Navbar.Brand>
+
+        <img src={FacebookLogo} alt="Facebook Logo"/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="mt-5" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto">

@@ -9,12 +9,15 @@ import {Routes, Route, Outlet, Link} from 'react-router-dom'
 import Contact from './Routes/Pages/Contact';
 import About from './routes/Pages/About';
 
+
+
 function App() {
 
 
   return (
     <>
         <Navigation/>
+    
 
     <Routes>
 

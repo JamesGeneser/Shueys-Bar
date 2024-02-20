@@ -8,6 +8,7 @@ import Apply from './Routes/Pages/Apply';
 import {Routes, Route, Outlet, Link} from 'react-router-dom'
 import Contact from './Routes/Pages/Contact';
 import About from './routes/Pages/About';
+import Footer from './Components/footer';
 
 
 
@@ -28,7 +29,7 @@ function App() {
       <Route path="/apply" element={<Apply/>} />
 
     </Routes>
-
+  <Footer/>
 
     </>
   )

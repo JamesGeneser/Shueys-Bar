@@ -1,7 +1,23 @@
-.shueys-brand{
-    background-color: gray;
+body{
+    background-color: #EDD3BA;
+}
+
+/* NAVIGATION */
+.navigation-container{
+    background-color: #EDD3BA;
 
 }
+
+.shueys-logo{
+    width: 100%;
+}
+.page-title{
+    font-family: 'Bebas Neue', sans-serif;
+
+ 
+  
+}
+
 
 .welcome-image{
 width: 100%;
@@ -9,4 +25,128 @@ width: 100%;
 
 .specials-image{
     width: 100%;
+}
+
+.footer-container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.image{
+    width: 100%;
+}
+
+/* MENU */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.menu-banner{
+    width: 100%;
+    border: 5px solid black;
+    border-left-width: 0px ;
+    border-right-width: 0px ;
+}
+
+.menu-navigation{
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+}
+
+.menu-subtitle{
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.menu-subtitle-description{
+    font-family: 'Public Sans Variable', sans-serif;
+
+
+}
+.menu-item-title{
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-item-description{
+    font-family: 'Public Sans Variable', sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.carousel{
+    border: 15px solid black;
+    border-left-width: 25px ;
+    border-right-width: 25px ;
+}
+
+/* MOBILE DEVICES */
+@media screen and (width <= 480px){
+
+    .page-title{
+        font-size: 36px;
+    }
+
+    .menu-navigation{
+
+        font-size: 24px;
+    }
+
+    .subtitle-row{
+        text-align: center;
+    }
+    .menu-subtitle{
+        font-size: 32px;
+    }
+
+    .menu-subtitle-description{
+        font-size: 14px;
+    }
+
+    .menu-row{
+        text-align: center;
+    }
+
+}
+
+/* TABLETS */
+@media screen and (481px <= width <= 768px){
+    
+}
+
+/* SMALL SCREENS & LAPTOPS */
+@media screen and (769px <= width <= 1024px){
+    
+}
+
+/* LARGE SCREENS & DESKTOPS */
+@media screen and (1025px <= width <= 1200px){
+    
+}
+
+/* EXTRA LARGE SCREENS */
+@media screen and (1201px <= width){
+    
 }

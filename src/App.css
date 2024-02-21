@@ -102,6 +102,9 @@ a:active {
     border-right-width: 25px ;
 }
 
+.banner-image{
+    width: 100%;
+}
 /* MOBILE DEVICES */
 @media screen and (width <= 480px){
 

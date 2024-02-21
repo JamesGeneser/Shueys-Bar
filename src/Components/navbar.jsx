@@ -32,11 +32,11 @@ function Navigation() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="mt-5" />
             <Navbar.Collapse id="basic-navbar-nav" >
               <Nav className="me-auto">
-                <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-                <Nav.Link as={NavLink} to="/menu">Menu</Nav.Link>
-                <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
-                <Nav.Link as={NavLink} to="/about">About</Nav.Link>
-                <Nav.Link as={NavLink} to="/apply">Apply</Nav.Link>
+                <Nav.Link as={NavLink} to="Shueys-Bar/">Home</Nav.Link>
+                <Nav.Link as={NavLink} to="Shueys-Bar/menu">Menu</Nav.Link>
+                <Nav.Link as={NavLink} to="Shueys-Bar/contact">Contact</Nav.Link>
+                <Nav.Link as={NavLink} to="Shueys-Bar/about">About</Nav.Link>
+                <Nav.Link as={NavLink} to="Shueys-Bar/apply">Apply</Nav.Link>
                 </Nav>
           </Navbar.Collapse>
           

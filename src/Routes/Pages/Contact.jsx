@@ -9,109 +9,117 @@ import { Button } from 'react-bootstrap';
 export default function Contact() {
   return (
     <>
+          <img src={ContactBanner} className="banner-image" fluid/>
       <Container fluid className="contact-container">
-        <img src={ContactBanner} className="banner-image"/>
-        <Row>
-          <Col>
-            <h2>Contact Us</h2>
+   
+        <Row className='text-center m-5'>
+          <Col >
+            <h1 className='heading'>Contact Us</h1>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
-            <h3>Location</h3>
-            <p>1158 Club Rd NE</p>
-            <p>Cedar Rapids, IA 52333</p>
-            <p>United States</p>
+        <Row className='text-center'>
+          <Col className='bebas '>
+            <h3 className="mb-3">Location:</h3>
+            <p className='m-0 p-0'>1158 Club Rd NE</p>
+            <p className='m-0 p-0'>Cedar Rapids, IA 52333</p>
+            <p className='m-0 p-0'>United States</p>
           </Col>
-          <Col>
-            <img src={Patio} className="contact-image"/>
-          </Col>
+       
         </Row>
 
-        <Row>
-          <Col>
+        <Row className='text-center mt-5'>
+          <Col className='bebas'>
             <h3>Hours:</h3>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
+        <Row className='ms-5'>
+          <Col className='bebas'>
             <p>Sunday</p>
           </Col>
-          <Col>
+          <Col className='bebas d-flex flex-row-reverse me-5'>
             <p>8:00AM-10:00PM</p>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
+        <Row className='ms-5'>
+          <Col className='bebas'>
             <p>Monday</p>
           </Col>
-          <Col>
+          <Col className='bebas d-flex flex-row-reverse me-5'>
             <p>11:00AM-10:00PM</p>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
+        <Row className='ms-5'>
+          <Col className='bebas'>
             <p>Tuesday</p>
           </Col>
-          <Col>
+          <Col className='bebas d-flex flex-row-reverse me-5'>
             <p>11:00AM-10:00PM</p>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
+        <Row className='ms-5 '>
+          <Col className='bebas'>
             <p>Wednesday</p>
           </Col>
-          <Col>
+          <Col className='bebas d-flex flex-row-reverse me-5'>
             <p>11:00AM-10:00PM</p>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
+        <Row className='ms-5'>
+          <Col className='bebas'>
             <p>Thursday</p>
           </Col>
-          <Col>
+          <Col className='bebas d-flex flex-row-reverse me-5'>
             <p>11:00AM-10:00PM</p>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
+        <Row className='ms-5'>
+          <Col className='bebas'>
             <p>Friday</p>
           </Col>
-          <Col>
+          <Col className='bebas d-flex flex-row-reverse me-5'>
             <p>11:00AM-1:00AM</p>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
-            <p>Saturday</p>
+        <Row className='ms-5'>
+          <Col className='bebas '>
+            <p >Saturday</p>
           </Col>
-          <Col>
+          <Col className='bebas d-flex flex-row-reverse me-5'>
             <p>8:00AM-1:00AM</p>
           </Col>
         </Row>
 
-        <Row>
-          <Col>
-            <h3>Phone Number</h3>
+        <Row className='text-center mt-5'>
+          <Col className='bebas'>
+            <h3 >Phone Number</h3>
             <p>319-848-2220</p>
           </Col>
         </Row>
-
-        <Row>
-          <Col>
-            <p>Feel free to give us a call to reserve a table or discuss catering options! For other inquiries, click below:</p>
+        <Row className='text-center'>
+          <Col className='m-5 p-0 border'>
+            <img src={Patio} className= "image p-0 m-0"/>
           </Col>
         </Row>
 
-        <Button/>
+        <Row className='text-center'>
+          <Col >
+            <p>Feel free to give us a call to reserve a table or discuss catering options! For other inquiries, click below:</p>
+          </Col>
+        </Row>
+        <Row className='text-center mb-3'>
+          <Col>
+            <Button className='button'> Email us</Button>
+          </Col>
+        </Row>
+ 
 
 
       </Container>

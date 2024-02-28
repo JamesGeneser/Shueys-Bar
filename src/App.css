@@ -1,21 +1,39 @@
 body{
     background-color: #EDD3BA;
+    font-family: 'Public Sans Variable', sans-serif;
 }
-
+.bebas{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.border{
+    border: 10px solid black !important;
+    border-left-width: 25px !important;
+    border-right-width: 25px !important;
+}
+.button{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #F2BB35;
+    color: black;
+    border: none;   
+    border-radius: 0%;
+}
 /* NAVIGATION */
 .navigation-container{
     background-color: #EDD3BA;
 
 }
-
-.shueys-logo{
+.navbar{
     width: 100%;
 }
-.page-title{
+
+
+
+.heading{
     font-family: 'Bebas Neue', sans-serif;
 
  
   
+
 }
 
 
@@ -105,6 +123,26 @@ a:active {
 .banner-image{
     width: 100%;
 }
+
+
+/* APPLY */
+.form{
+    background-color: #161616A6;
+}
+.form-input{
+    color: white;
+    border-radius: 0% !important;
+}
+.form-control{
+
+    border-radius: 0% !important;
+}
+.form-text{
+    color: white;
+    border-radius: 0% !important;
+}
+
+
 /* MOBILE DEVICES */
 @media screen and (width <= 480px){
 
@@ -134,22 +172,31 @@ a:active {
 
 }
 
+
 /* TABLETS */
 @media screen and (481px <= width <= 768px){
-    
+
+
 }
 
 /* SMALL SCREENS & LAPTOPS */
 @media screen and (769px <= width <= 1024px){
-    
+
 }
 
 /* LARGE SCREENS & DESKTOPS */
 @media screen and (1025px <= width <= 1200px){
-    
+
+
 }
 
 /* EXTRA LARGE SCREENS */
 @media screen and (1201px <= width){
-    
+
+    .nav-link{
+        font-size: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+    }
 }

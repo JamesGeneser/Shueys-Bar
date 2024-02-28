@@ -11,7 +11,7 @@ function Footer() {
 return(
     <div>
 <Container fluid className="footer-container">
-<img src={ShueysLogo} alt="Shueys Logo" className="shueys-logo"/>
+<img src={ShueysLogo} alt="Shueys Logo" className="image"/>
 <img src={FacebookLogo} alt="Facebook Logo"/>
 </Container>
 </div>

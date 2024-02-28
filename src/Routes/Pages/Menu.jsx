@@ -31,7 +31,7 @@ function Menu (){
 
       <img src={MenuBanner} className="menu-banner"/>
     <Container>
-        <Row className='text-center'><h2 className='page-title'>Menu</h2></Row>
+        <Row className='text-center'><h2 className='heading'>Menu</h2></Row>
 
         <Row>
             <Col  xs="4"><p><a className='menu-navigation' href="#appetizers">Appetizers</a></p></Col>

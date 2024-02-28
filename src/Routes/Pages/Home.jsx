@@ -14,9 +14,10 @@ export default function Home() {
 
 return(
     <>
+      <img fluid src={HomeBarView} alt='View of Shueys Bar' className='image '/>
     <Container fluid className='p-0'>
     
-      <img fluid src={HomeBarView} alt='View of Shueys Bar' className='image'/>
+    
   
 
       <Row className="text-center mt-3">

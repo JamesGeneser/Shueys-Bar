@@ -109,7 +109,7 @@ function Menu (){
             <p className='menu-item-description'>Fresh tortilla chips smothered in queso, lettuce, tomatoes, onions & jalapeños, with chicken or beef taco meat. $14.99</p>
         </Row>
 
-        <Carousel className='carousel'>
+        <Carousel className='menu-carousel'>
       <Carousel.Item>
       <img src={RuebenRolls} className="image" alt="Rueben Rolls" />
         <Carousel.Caption>
@@ -182,7 +182,7 @@ function Menu (){
             <p className='menu-item-description'>1/3 lb burger with bacon, bleu cheese crumbles, A1 sauce & onion straws. $15.99</p>
         </Row>
        
-        <Carousel className='carousel'>
+        <Carousel className='menu-carousel'>
             <Carousel.Item>
                 <img src={SteakhouseBurger} className="image" alt="Steakhouse Burger" />
                 <Carousel.Caption>
@@ -255,7 +255,7 @@ function Menu (){
             <p className='menu-item-description'>Hot turkey with bacon, Swiss cheese & honey mustard on a pretzel bun. $14.99</p>
             </Row>
 
-            <Carousel className='carousel'>
+            <Carousel className='menu-carousel'>
                 <Carousel.Item>
                     <img src={ChickenCordonBleu} className="image" alt="Chicken Cordon Bleu" />
                     <Carousel.Caption>
@@ -316,7 +316,7 @@ function Menu (){
             
             </Row>
 
-            <Carousel className='carousel'>
+            <Carousel className='menu-carousel'>
                 <Carousel.Item>
                     <img src={ChickenSalad} className="image" alt="Chicken Salad" />
                     <Carousel.Caption>

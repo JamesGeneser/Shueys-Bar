@@ -31,7 +31,7 @@ export default function About() {
                Conveniently located between Iowa City and Cedar Rapids, Shuey’s is the perfect place to stop in and enjoy a good meal!
             </p>
           </Col>
-          <Col md={6}>
+          <Col className='m-2' md={6}>
             <img src={ShueysStory} className="image border-vertical"/>
           </Col>
         </Row>

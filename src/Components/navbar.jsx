@@ -21,7 +21,7 @@ function Navigation() {
       <Row className="mt-4">
         {/* <Navbar.Brand className="shueys-brand mt-5 p-2" as={NavLink} to="/" > */}
           <Col xs={6} sm={2} md={3} lg={2}>
-            <img src={ShueysLogo} alt="Shueys Logo" className=" image"/>  
+            <img src={ShueysLogo} alt="Shueys Logo" className="image"/>  
           </Col>
         {/* </Navbar.Brand> */}
           <Col xs={2} lg={1} className="d-none d-sm-block d-md-none mt-5 mb-0 pt-5 ps-0">

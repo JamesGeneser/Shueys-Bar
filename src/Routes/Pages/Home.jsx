@@ -67,7 +67,7 @@ return(
         <Col>
             <h2 className='heading text-center'>Reviews</h2>
 
-            <Carousel className="align-items-center d-flex flex-column justify-content-around" activeIndex={index} onSelect={handleSelect}>
+            <Carousel indicators={false} className="align-items-center d-flex flex-column justify-content-around" activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item className="review-carousel text-center">
                     <p className='mt-4 mb-4 p-5'>“Went to Shuey's to watch the Iowa game with my family and had a super positive experience! The food was great (I got the chicken quesadilla), the staff was nice and chatted with us for a bit, and the energy there for the game was super fun. Probably our new go-to spot for games!”</p>
                 </Carousel.Item>

@@ -1,5 +1,5 @@
 body{
-    background-color: #EDD3BA;
+    background: linear-gradient(180deg, #EDD3BA 0%, rgba(237, 211, 186, 0.00) 100%), #FFF;
     font-family: 'Public Sans Variable', sans-serif;
     font-size: 16px;
 }
@@ -57,7 +57,7 @@ body{
     font-size: 32px;
 }
 .footer-text{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
@@ -164,6 +164,12 @@ a:active {
     border-radius: 0% !important;
 }
 
+/* ABOUT */
+.border-vertical{
+    border: black 15px solid;
+    border-top-width: 35px;
+    border-bottom-width: 35px;
+}
 
 /* MOBILE DEVICES */
 @media screen and (width <= 480px){
@@ -195,18 +201,22 @@ a:active {
 }
 
 
-/* TABLETS */
+/* SMALL: TABLETS */
 @media screen and (481px <= width <= 768px){
-
+    .facebook-logo-footer{
+        width: 55px;
+    }
 
 }
 
-/* SMALL SCREENS & LAPTOPS */
+/* MEDIUM: SMALL SCREENS & LAPTOPS */
 @media screen and (769px <= width <= 1024px){
-
+.facebook-logo-footer{
+    width: 55px;
+}
 }
 
-/* LARGE SCREENS & DESKTOPS */
+/* LARGE: LARGE SCREENS & DESKTOPS */
 @media screen and (1025px <= width <= 1200px){
 
 
@@ -220,5 +230,9 @@ a:active {
         margin-left: 20px;
         margin-right: 20px;
         color: black;
+    }
+
+    .footer-text{
+        font-size: 24px;
     }
 }

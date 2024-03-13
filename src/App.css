@@ -3,6 +3,7 @@ body{
     font-family: 'Public Sans Variable', sans-serif;
     font-size: 16px;
 }
+
 .bebas{
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -24,6 +25,9 @@ body{
 }
 .image{
     width: 100%;
+}
+.text-right{
+    text-align: right !important;
 }
 
 /* NAVIGATION */
@@ -113,13 +117,13 @@ a:active {
 
 .menu-subtitle{
     font-family: 'Bebas Neue', sans-serif;
-
+    font-size: 32px;
+   
 }
-
 .menu-subtitle-description{
     font-family: 'Public Sans Variable', sans-serif;
-
-
+    font-size: 14px;
+  
 }
 .menu-item-title{
 
@@ -128,6 +132,8 @@ a:active {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .menu-item-description{
@@ -136,6 +142,8 @@ a:active {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .menu-carousel{
@@ -214,11 +222,37 @@ a:active {
 .facebook-logo-footer{
     width: 55px;
 }
+
+/* MENU */
+.menu-navigation{
+    font-size: 36px;
+}
+.menu-item-title{
+    text-align: left;
+    font-size: 36px;
+}
+
+.menu-item-description{
+    text-align: left;
+    font-size: 16px;
+}
 }
 
 /* LARGE: LARGE SCREENS & DESKTOPS */
 @media screen and (1025px <= width <= 1200px){
+/* MENU */
+.menu-navigation{
+    font-size: 36px;
+}
+.menu-item-title{
+    text-align: left;
+    font-size: 36px;
+}
 
+.menu-item-description{
+    text-align: left;
+    font-size: 16px;
+}
 
 }
 
@@ -235,4 +269,20 @@ a:active {
     .footer-text{
         font-size: 24px;
     }
+.heading{
+    font-size: 64px;
+}
+    /* MENU */
+.menu-navigation{
+    font-size: 40px;
+}
+.menu-item-title{
+    text-align: left;
+    font-size: 40px;
+}
+
+.menu-item-description{
+    text-align: left;
+    font-size: 20px;
+}
 }

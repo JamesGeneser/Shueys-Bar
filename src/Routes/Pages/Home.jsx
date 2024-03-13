@@ -33,7 +33,7 @@ return(
                 </Col>
 
                 <Col xs={12} lg={6} className="pancakes">
-                    <img src={Pancakes} alt='Pancakes'/>
+                    <img className='border' src={Pancakes} alt='Pancakes'/>
                 </Col>
             </Row>
         </Container>
@@ -44,13 +44,15 @@ return(
 
     <Row className='text-center'> 
         <Col xs={12} className="specials m-2"> 
-    <p>Shuey’s serves a variety of domestic and imported beers with a full services bar. We also offer soft drink Coke products. Stop by our weekday happy hour from 2:30pm - 5:30pm for $1.00 off of wells and domestics!</p>
+            <p>Shuey’s serves a variety of domestic and imported beers with a full services bar. We also offer soft drink Coke products. Stop by our weekday happy hour from 2:30pm - 5:30pm for $1.00 off of wells and domestics!</p>
         </Col>
 
     </Row>
 
     <Row className="text-center">
-        <Col><img src={Windows} alt='View of patio through the windows'></img></Col>
+        <Col>
+            <img className='border' src={Windows} alt='View of patio through the windows'></img>
+        </Col>
     </Row>
     <Row className='text-center'>
         <Col><h2 className='heading'>Follow us on Facebook</h2>

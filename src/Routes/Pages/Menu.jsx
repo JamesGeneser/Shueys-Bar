@@ -31,24 +31,23 @@ function Menu (){
 
       <img src={MenuBanner} className="menu-banner"/>
     <Container>
-        <Row className='text-center'><h2 className='heading'>Menu</h2></Row>
+        <Row className='text-center'><h2 className='heading mb-5 mt-5'>Menu</h2></Row>
 
-        <Row>
-            <Col  xs="4"><p><a className='menu-navigation' href="#appetizers">Appetizers</a></p></Col>
-            <Col  xs="4"><p><a className='menu-navigation' href="#sandwiches">Sandwiches</a></p></Col>
-            <Col  xs="4"><p><a className='menu-navigation' href="#burgers">Burgers</a></p></Col>
-            <Col  xs="4"><p><a className='menu-navigation' href="#salads">Salads</a></p></Col>
-            <Col  xs="4"><p><a className='menu-navigation' href="#wraps">Wraps</a></p></Col>
-            <Col  xs="4"><p><a className='menu-navigation' href="#kidsmenu">Kids Menu</a></p></Col>
+        <Row className='m-5'>
+            <Col className='text-center' xs="4"><p><a className='menu-navigation' href="#appetizers">Appetizers</a></p></Col>
+            <Col className='text-center' xs="4"><p><a className='menu-navigation' href="#sandwiches">Sandwiches</a></p></Col>
+            <Col className='text-center' xs="4"><p><a className='menu-navigation' href="#burgers">Burgers</a></p></Col>
+            <Col className='text-right' xs="5"><p><a className='menu-navigation' href="#salads">Salads</a></p></Col>
+            <Col className='text-center' xs="6"><p><a className='menu-navigation' href="#wraps">Wraps</a></p></Col>
         </Row>
 
-        <Row className='subtitle-row'>
-            <h3 className='menu-subtitle' id="appetizers">Appetizers</h3>
-            <p className='menu-subtitle-description'>Each appetizer includes one sauce: Shuey’s Sauce, Ranch, Bleu Cheese, Garlic Parm, BBQ, Buffalo, Sweet Chili, Teriyaki, French, Honey Mustard, Thousand Island, Asian, Peppered Ranch or Balsamic Vinaigrette. Extra sauce - $1.00</p>
+        <Row className='subtitle-row mt-3'>
+            <h3 className='menu-subtitle mb-3' id="appetizers">Appetizers</h3>
+            <p className='menu-subtitle-description p-3'>Each appetizer includes one sauce: Shuey’s Sauce, Ranch, Bleu Cheese, Garlic Parm, BBQ, Buffalo, Sweet Chili, Teriyaki, French, Honey Mustard, Thousand Island, Asian, Peppered Ranch or Balsamic Vinaigrette. Extra sauce - $1.00</p>
         </Row>
-        <Container className="appetizer-container">
+        <Container className="appetizer-container ms-5 ps-5">
 
-        <Row className='menu-item-row'>
+        <Row className='menu-item-row justify-content-sm-center'>
             <p className='menu-item-title'>Shuey's Fries</p>
             <p className='menu-item-description'>Warm queso topped with fries, bacon bits & fresh herbs. $13.99</p>
         </Row>

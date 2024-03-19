@@ -9,7 +9,7 @@ import { Button } from 'react-bootstrap';
 export default function Contact() {
   return (
     <>
-          <img src={ContactBanner} className="banner-image" fluid/>
+          <img src={ContactBanner} className="image" fluid/>
       <Container fluid className="contact-container">
    
         <Row className='text-center m-5'>

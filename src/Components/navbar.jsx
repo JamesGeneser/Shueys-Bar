@@ -18,31 +18,31 @@ function Navigation() {
       <Container fluid className="navigation-container">
 
 
-      <Row className="mt-4">
+      <Row className="">
         {/* <Navbar.Brand className="shueys-brand mt-5 p-2" as={NavLink} to="/" > */}
-          <Col xs={6} sm={2} md={3} lg={2}>
-            <img src={ShueysLogo} alt="Shueys Logo" className="image"/>  
+          <Col xs={6} sm={2} md={3} lg={3}>
+            <img src={ShueysLogo} alt="Shueys Logo" className="image shueys-logo"/>  
           </Col>
         {/* </Navbar.Brand> */}
-          <Col xs={2} lg={1} className="d-none d-sm-block d-md-none mt-5 mb-0 pt-5 ps-0">
+          <Col xs={2} className="d-none d-sm-block d-md-none mt-5 mb-0 pt-5 ps-0">
             <a href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
           </Col>
 
-          <Col xs={2} md={6} lg={9} className="mt-auto mb-0 pt-4"> 
+          <Col xs={2} md={6} lg={7} className="mt-auto mb-0 pt-4"> 
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="" />
             <Navbar.Collapse id="basic-navbar-nav" className="navbar">
               <Nav className="bebas gap-5 mt-auto">
-                <Nav.Link  as={NavLink} to="Shueys-Bar/">Home</Nav.Link>
-                <Nav.Link  as={NavLink} to="Shueys-Bar/menu">Menu</Nav.Link>
-                <Nav.Link  as={NavLink} to="Shueys-Bar/contact">Contact</Nav.Link>
-                <Nav.Link  as={NavLink} to="Shueys-Bar/about">About</Nav.Link>
-                <Nav.Link  as={NavLink} to="Shueys-Bar/apply">Apply</Nav.Link>
+                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/">Home</Nav.Link>
+                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/menu">Menu</Nav.Link>
+                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/contact">Contact</Nav.Link>
+                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/about">About</Nav.Link>
+                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/apply">Apply</Nav.Link>
               </Nav>
           </Navbar.Collapse>
           
           </Col>
 
-          <Col xs={2} lg={1} className="d-none d-md-block mt-auto pt-5 ps-0">
+          <Col xs={2} lg={2} className="d-none d-md-block mt-auto pb-4 text-center">
             <a href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
           </Col>
         

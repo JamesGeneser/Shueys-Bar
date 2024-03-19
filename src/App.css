@@ -38,7 +38,9 @@ body{
 .navbar{
     width: 100%;
 }
-
+.navigation-item{
+    font-size: 40px;
+}
 .push-menu{
     position: fixed;
     left: 0;
@@ -47,6 +49,10 @@ body{
          
     width: 100%;
     height: 100%;
+}
+.shueys-logo{
+    position: relative;
+    top: 50px;
 }
 /* FOOTER */
 .footer-container{
@@ -118,12 +124,12 @@ a:active {
 .menu-subtitle{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 32px;
-   
+   text-align: center;
 }
 .menu-subtitle-description{
     font-family: 'Public Sans Variable', sans-serif;
     font-size: 14px;
-  
+    text-align: center;
 }
 .menu-item-title{
 
@@ -133,7 +139,7 @@ a:active {
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .menu-item-description{
@@ -143,7 +149,7 @@ a:active {
     font-weight: 500;
     line-height: normal;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .menu-carousel{
@@ -227,6 +233,18 @@ a:active {
 .menu-navigation{
     font-size: 36px;
 }
+.appetizer-container{
+    margin-left: 100px;
+}
+.menu-subtitle{
+    font-size: 40px;
+    text-align: left;
+}
+.menu-subtitle-description{
+    font-size: 16px;
+    text-align: left;
+}
+
 .menu-item-title{
     text-align: left;
     font-size: 36px;
@@ -243,6 +261,17 @@ a:active {
 /* MENU */
 .menu-navigation{
     font-size: 36px;
+}
+.appetizer-container{
+    margin-left: 100px;
+}
+.menu-subtitle{
+    font-size: 48px;
+    text-align: left;
+}
+.menu-subtitle-description{
+    font-size: 20px;
+    text-align: left;
 }
 .menu-item-title{
     text-align: left;
@@ -275,6 +304,14 @@ a:active {
     /* MENU */
 .menu-navigation{
     font-size: 40px;
+}
+.menu-subtitle{
+    font-size: 48px;
+    text-align: left;
+}
+.menu-subtitle-description{
+    font-size: 20px;
+    text-align: left;
 }
 .menu-item-title{
     text-align: left;

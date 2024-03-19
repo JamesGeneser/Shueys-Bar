@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import MenuBanner from '../../images/menu-banner.png';
 // imported appetizer images
-import RuebenRolls from '../../images/menu/appetizers/rueben-rolls.jpeg'
+import RuebenRolls from '../../images/menu/appetizers/rueben-rolls.png'
 import ShueysNachos from '../../images/menu/appetizers/shueys-nachos.jpeg'
 import ChickenQuesadilla from '../../images/menu/appetizers/chicken-quesadilla.jpeg'
 import Wings from '../../images/menu/appetizers/wings.jpeg'
@@ -45,9 +45,9 @@ function Menu (){
             <h3 className='menu-subtitle mb-3' id="appetizers">Appetizers</h3>
             <p className='menu-subtitle-description p-3'>Each appetizer includes one sauce: Shuey’s Sauce, Ranch, Bleu Cheese, Garlic Parm, BBQ, Buffalo, Sweet Chili, Teriyaki, French, Honey Mustard, Thousand Island, Asian, Peppered Ranch or Balsamic Vinaigrette. Extra sauce - $1.00</p>
         </Row>
-        <Container className="appetizer-container ms-5 ps-5">
+        <Container className="appetizer-container">
 
-        <Row className='menu-item-row justify-content-sm-center'>
+        <Row className='menu-item-row'>
             <p className='menu-item-title'>Shuey's Fries</p>
             <p className='menu-item-description'>Warm queso topped with fries, bacon bits & fresh herbs. $13.99</p>
         </Row>

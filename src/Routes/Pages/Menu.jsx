@@ -111,35 +111,19 @@ function Menu (){
         <Carousel className='menu-carousel'>
       <Carousel.Item>
       <img src={RuebenRolls} className="image" alt="Rueben Rolls" />
-        <Carousel.Caption>
-          <h3>Reuben Rolls</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+     
       </Carousel.Item> 
      <Carousel.Item>
      <img src={ShueysNachos} className="image" alt="Shuey's Nachos" />
-        <Carousel.Caption>
-          <h3>Shuey's Nachos</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+   
       </Carousel.Item>
       <Carousel.Item>
       <img src={ChickenQuesadilla} className="image" alt="Chicken Quesadilla" />
-        <Carousel.Caption>
-          <h3>Chicken Quesadilla</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+  
       </Carousel.Item> 
       <Carousel.Item>
       <img src={Wings} className="image" alt="Wings" />
-        <Carousel.Caption>
-          <h3>Wings</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+   
       </Carousel.Item> 
         </Carousel> 
 
@@ -184,18 +168,12 @@ function Menu (){
         <Carousel className='menu-carousel'>
             <Carousel.Item>
                 <img src={SteakhouseBurger} className="image" alt="Steakhouse Burger" />
-                <Carousel.Caption>
-                    <h3>Steakhouse Burger</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
+           
             </Carousel.Item>
 
             <Carousel.Item>
                 <img src={DudekBurger} className="image" alt="Dudek Burger" />
-                <Carousel.Caption>
-                    <h3>Dudek Burger</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
+      
             </Carousel.Item>
      
     </Carousel> 
@@ -257,26 +235,17 @@ function Menu (){
             <Carousel className='menu-carousel'>
                 <Carousel.Item>
                     <img src={ChickenCordonBleu} className="image" alt="Chicken Cordon Bleu" />
-                    <Carousel.Caption>
-                        <h3>Chicken Cordon Bleu</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                 
                 </Carousel.Item> 
 
                 <Carousel.Item>
                     <img src={BurntEndsMacAndCheese} className="image" alt="Burnt Ends Mac & Cheese Sandwich" />
-                    <Carousel.Caption>
-                        <h3>Burnt Ends Mac & Cheese Sandwich</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+                 
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img src={Tenderloin} className="image" alt="Pork Tenderloin" />
-                    <Carousel.Caption>
-                        <h3>Pork Tenderloin</h3>
-                        <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
+               
                 </Carousel.Item> 
       
             </Carousel> 
@@ -318,18 +287,12 @@ function Menu (){
             <Carousel className='menu-carousel'>
                 <Carousel.Item>
                     <img src={ChickenSalad} className="image" alt="Chicken Salad" />
-                    <Carousel.Caption>
-                        <h3>Chicken Salad</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+               
                 </Carousel.Item> 
 
                 <Carousel.Item>
                     <img src={TacoSalad} className="image" alt="Taco Salad" />
-                    <Carousel.Caption>
-                        <h3>Taco Salad</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+         
                 </Carousel.Item>     
             </Carousel> 
         </Container>

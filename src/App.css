@@ -35,6 +35,7 @@ body{
     background-color: #EDD3BA;
 
 }
+
 .navbar{
     width: 100%;
 }
@@ -158,8 +159,10 @@ a:active {
     border-right-width: 25px ;
 }
 
+/* CONTACT */
+.hours-container{
 
-
+}
 
 /* APPLY */
 .form{
@@ -221,6 +224,15 @@ a:active {
         width: 55px;
     }
 
+    /* CONTACT */
+.location{
+    text-align: left !important;
+    margin-left: 100px;
+}
+.phone-number{
+    text-align: left !important;
+}
+
 }
 
 /* MEDIUM: SMALL SCREENS & LAPTOPS */
@@ -254,6 +266,7 @@ a:active {
     text-align: left;
     font-size: 16px;
 }
+
 }
 
 /* LARGE: LARGE SCREENS & DESKTOPS */

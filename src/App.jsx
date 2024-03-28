@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-        <Navigation/>
+    <Navigation/>
     
 
     <Routes>
@@ -29,7 +29,7 @@ function App() {
       <Route path="Shueys-Bar/apply" element={<Apply/>} />
 
     </Routes>
-  <Footer/>
+    <Footer/>
 
     </>
   )

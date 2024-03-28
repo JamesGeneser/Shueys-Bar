@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from "react-router-dom";
 import { Outlet } from 'react-router-dom';
+import SlideMenu from "./slide-menu";
 
 import ShueysLogo from '../images/ShueysLogo.png';
 import FacebookLogo from '../images/FacebookLogo.svg'
@@ -19,12 +20,12 @@ function Navigation() {
 
 
       <Row className="">
-        {/* <Navbar.Brand className="shueys-brand mt-5 p-2" as={NavLink} to="/" > */}
-          <Col xs={6} sm={5} md={4} lg={3}>
-            <img src={ShueysLogo} alt="Shueys Logo" className="image shueys-logo"/>  
+   
+          <Col xs={4} sm={4} md={3} lg={3}>
+            <img src={ShueysLogo} alt="Shueys Logo" className="image shueys-logo m-1"/>  
           </Col>
-        {/* </Navbar.Brand> */}
-          <Col xs={2} className="d-none d-sm-block d-md-none mt-auto pb-4 text-center">
+
+          <Col xs={2} className=" d-sm-block d-md-none mt-auto pb-4 text-center">
             <a href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
           </Col>
 
@@ -42,8 +43,8 @@ function Navigation() {
           
           </Col>
 
-          <Col xs={2} lg={3} className="d-none d-md-block mt-auto pb-4 d-flex flex-row-reverse">
-            <a href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
+          <Col xs={2} lg={2} className="d-none d-md-block mt-auto pb-4 ms-5">
+            <a className="d-flex justify-content-end" href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
           </Col>
         
 
@@ -51,6 +52,7 @@ function Navigation() {
         
    
       </Container>
+        <SlideMenu/>
     </Navbar>
     <Outlet/>
 </div>

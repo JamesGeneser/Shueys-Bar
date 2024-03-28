@@ -6,28 +6,29 @@ import Col from 'react-bootstrap/Col';
 import ApplyBanner from '../../images/apply-banner.jpeg';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import FloatingLabel from 'react-bootstrap/FloatingLabel';
 
 export default function Apply() {
   return (
     <>
-    <img src={ApplyBanner} className="banner-image"/>
-    <Container fluid className="apply-container">
+    <img src={ApplyBanner} className="image"/>
+    <Container  className="apply-container">
 
-      <Row className='text-center mt-5'>
+      <Row className='text-center mt-4'>
         <Col>
           <h2 className='heading'>Want to Work With Us?</h2>
         </Col>
       </Row>
-      <Row className='text-center'>
+      <Row className='text-center mt-5'>
         <Col>
           <p className='public-sans'>If you’d like to become a part of the Shuey’s family, fill out the application interest form below! You will be contacted at a later date with further information/instructions.</p>
         </Col>
       </Row>
       <Row className='text-center'>
-        <Col>
-          <h2 className='heading'>Contact Form</h2>
+        <Col  className='d-flex flex-column align-items-center mt-4'>
+          <h2 className='sub-heading bebas'>Contact Form</h2>
 
-          <Form className='pt-2 m-1 mb-4 form'>
+          <Form className='pt-2 m-1 mb-4 form align-items-center'>
 
             <Form.Group className="mb-3 m-4 form-input" controlId="formFirstLastName">
               <Form.Label variant="dark" className='mt-4 form-text d-flex justify-content-left'>First and last name</Form.Label>
@@ -49,9 +50,15 @@ export default function Apply() {
 
              <Form.Control type="short-answer"/>
             </Form.Group>
-            <Button variant="primary" type="submit" className='button mb-4'>
-              Submit
-            </Button>
+            <FloatingLabel controlId="floatingTextarea2" label="Comments">
+             <Form.Control
+                as="textarea"
+                placeholder="Leave a comment here"
+                style={{ height: '100px' }}/>
+            </FloatingLabel>
+                  <Button variant="primary" type="submit" className='button mb-4'>
+                  Submit
+                  </Button>
           </Form>
         </Col>
       </Row>

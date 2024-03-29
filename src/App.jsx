@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-    <Navigation className=""/>
+    <Navigation />
     {/* <SlideMenu/> */}
     
 

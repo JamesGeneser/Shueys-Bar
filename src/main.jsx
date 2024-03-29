@@ -16,36 +16,6 @@ import '@fontsource-variable/public-sans';
 import * as bootstrap from 'bootstrap'
 
 
-// const router = createBrowserRouter(
-
-//   [
-//   {
-//     path: "/",
-//     element: <Root />,
-//     errorElement: <ErrorPage />,
-//     children:[
-//       {
-//         path: "/menu",
-//         element: <Menu/>,
-//       },
-//       {
-//         path: "/contact",
-//         element: <Contact/>,
-//       },
-//       {
-//         path: "/about",
-//         element: <About/>,
-//       },
-//       {
-//         path: "/apply",
-//         element: <Apply/>,
-//       }
-//     ]
-//   },
-// ]
-
-
-// )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

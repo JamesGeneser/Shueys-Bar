@@ -30,32 +30,27 @@ export default function Apply() {
 
           <Form className='pt-2 m-1 mb-4 form align-items-center'>
 
-            <Form.Group className="mb-3 m-4 form-input" controlId="formFirstLastName">
+            <Form.Group className="mb-3 m-4 form-input" controlId="FirstLastName">
               <Form.Label variant="dark" className='mt-4 form-text d-flex justify-content-left'>First and last name</Form.Label>
               <Form.Control type="name" />
             </Form.Group>
 
-            <Form.Group className="mb-3 m-4" controlId="formBasicEmail">
+            <Form.Group className="mb-3 m-4" controlId="Email">
               <Form.Label className='form-text d-flex justify-content-left'>Email address</Form.Label>
                 <Form.Control type="email"/>
             </Form.Group>
 
-            <Form.Group className="mb-3 m-4" controlId="formPosition">
+            <Form.Group className="mb-3 m-4" controlId="Position">
               <Form.Label className='form-text d-flex justify-content-left'>Position you're applying for</Form.Label>
               <Form.Control type="position" />
             </Form.Group>
 
-            <Form.Group className="mb-3 m-4" controlId="formBasicCheckbox">
+            <Form.Group className="mb-3 m-4" controlId="ShortAnswer">
               <Form.Label className='form-text d-flex justify-content-left'>Tell us why you want to work at Shuey's</Form.Label>
 
-             <Form.Control type="short-answer"/>
+             <Form.Control as="textarea" rows={3}/>
             </Form.Group>
-            <FloatingLabel controlId="floatingTextarea2" label="Comments">
-             <Form.Control
-                as="textarea"
-                placeholder="Leave a comment here"
-                style={{ height: '100px' }}/>
-            </FloatingLabel>
+
                   <Button variant="primary" type="submit" className='button mb-4'>
                   Submit
                   </Button>

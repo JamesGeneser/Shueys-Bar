@@ -40,11 +40,31 @@ body{
     width: 100%;
  
 }
+
 .navigation-item{
     font-size: 40px;
 }
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+  }
 .slide-menu-container{
-height: 500px;
+    position: fixed;
+    top: 0;
+    right: 0;
+height: 1000px;
+width: 250px;
+background-color: black !important;
+font-size: 40px;
+color: white;
+}
+.slide-menu-closed{
+    right: 100px;
+}
+.slide-menu-open{
+    left:100px
 }
 .shueys-logo{
     position: relative;
@@ -195,9 +215,7 @@ a:active {
 /* MOBILE DEVICES */
 @media screen and (width <= 480px){
     /* NAVIGATION */
-       .navbar{
-
-     }   
+    
      .shueys-logo{
         position: relative;
         top: 35px;
@@ -237,9 +255,9 @@ a:active {
 /* SMALL: TABLETS */
 @media screen and (481px <= width <= 768px){
         /* NAVIGATION */
-        .navbar{
-        
-     }   
+        .navigaton{
+            display: none;
+        }
      .shueys-logo{
         position: relative;
         top: 50px;

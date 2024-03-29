@@ -9,7 +9,7 @@ import {Routes, Route, Outlet, Link} from 'react-router-dom'
 import Contact from './Routes/Pages/Contact';
 import About from './routes/Pages/About';
 import Footer from './Components/footer';
-
+import SlideMenu from './Components/slide-menu';
 
 
 function App() {
@@ -17,7 +17,8 @@ function App() {
 
   return (
     <>
-    <Navigation/>
+    <Navigation className=""/>
+    {/* <SlideMenu/> */}
     
 
     <Routes>

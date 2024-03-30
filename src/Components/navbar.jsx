@@ -62,11 +62,10 @@ function Navigation() {
             <a className="d-flex justify-content-end" href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
           </Col>
 
-          {/* <button onClick={toggleVisibility}>
-            <img src={HamburgerButton}/>
-          </button> */}
 
-             <SlideMenu />
+              <SlideMenu />
+ 
+             
         
 
       </Row>

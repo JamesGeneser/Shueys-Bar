@@ -30,7 +30,7 @@ function Menu (){
 
 
       <img src={MenuBanner} className="menu-banner"/>
-    <Container>
+    <Container className='menu-container'>
         <Row className='text-center'><h2 className='heading mb-5 mt-5'>Menu</h2></Row>
 
         <Row className='m-5'>
@@ -47,68 +47,117 @@ function Menu (){
         </Row>
         <Container className="appetizer-container">
 
-        <Row className='menu-item-row'>
+        <Row className='menu-item-row ms-4'>
+            <Col>
             <p className='menu-item-title'>Shuey's Fries</p>
             <p className='menu-item-description'>Warm queso topped with fries, bacon bits & fresh herbs. $13.99</p>
-        </Row>
+
+            <p className='menu-item-title'>Breaded Mushrooms</p>
+            <p className='menu-item-description'>Fried to a deep golden brown. $12.99</p>
+            
+            <p className='menu-item-title'>Pretzel Bites</p>
+            <p className='menu-item-description'>Delicious soft pretzel bites with queso. $12.99</p>
         
+            <p className='menu-item-title'>Cowboy Bites</p>
+            <p className='menu-item-description'>Sweet corn, jalapeños, cream cheese & bacon. $12.99</p>
+            
+            <p className='menu-item-title'>Fried Pickle Spears</p>
+            <p className='menu-item-description'>Try ’em - you’ll like ‘em. $12.99</p>
+
+            <p className='menu-item-title'>Shotgun Shells</p>
+            <p className='menu-item-description'>Breaded cheese curds fried to a golden brown. $12.99</p>
+
+            <p className='menu-item-title'>Chicken Strips & Fries</p>
+            <p className='menu-item-description'>Four breaded chicken strips & fries. $13.99</p>
+        
+            <p className='menu-item-title'>Chicken Quesadilla</p>
+            <p className='menu-item-description'>A large quesadilla with seasoned chicken, cheese, tomatoes, onions & Shuey’s sauce. $13.99</p>
+
+            <p className='menu-item-title'>Chips & Queso Dip</p>
+            <p className='menu-item-description'>Homemade queso & chips. $10.99 Add extra chips - $1.00 Add beef taco meat - $2.00</p>
+
+            <p className='menu-item-title'>Wings</p>
+            <p className='menu-item-description'>Bone-in or boneless wings served with your choice of sauce. $13.99</p>
+
+            <p className='menu-item-title'>Shuey's Nachos</p>
+            <p className='menu-item-description'>Fresh tortilla chips smothered in queso, lettuce, tomatoes, onions & jalapeños, with chicken or beef taco meat. $14.99</p>
+        
+            </Col>
+            <Col className='d-sm-none d-md-block'>
+                <img src={RuebenRolls} alt="rueben rolls" className='small-image skew-right'/>
+                <img src={ShueysNachos} alt="shueys nachos" className='small-image'/>
+                <img src={ChickenQuesadilla} alt="chicken quesadilla" className='small-image skew-right'/>
+                <img src={Wings} alt="wings" className='small-image' />
+            </Col>
+            
+        </Row>
+{/*         
         <Row className='menu-item-row'>
             <p className='menu-item-title'>Breaded Mushrooms</p>
             <p className='menu-item-description'>Fried to a deep golden brown. $12.99</p>
-        </Row>
+        </Row> */}
 
 
-        <Row className='menu-item-row'>
+        {/* <Row className='menu-item-row'>
             <p className='menu-item-title'>Pretzel Bites</p>
             <p className='menu-item-description'>Delicious soft pretzel bites with queso. $12.99</p>
-        </Row>
+        
+        </Row> */}
 
-        <Row className='menu-row'>
+        {/* <Row className='menu-row'>
             <p className='menu-item-title'>Cowboy Bites</p>
             <p className='menu-item-description'>Sweet corn, jalapeños, cream cheese & bacon. $12.99</p>
-        </Row>
+       
+        </Row> */}
 
-        <Row className='menu-item-row'>
+        {/* <Row className='menu-item-row'>
             <p className='menu-item-title'>Fried Pickle Spears</p>
             <p className='menu-item-description'>Try ’em - you’ll like ‘em. $12.99</p>
-        </Row>
+        
+        </Row> */}
 
-        <Row className='menu-item-row'>
+        {/* <Row className='menu-item-row'>
             <p className='menu-item-title'>Shotgun Shells</p>
             <p className='menu-item-description'>Breaded cheese curds fried to a golden brown. $12.99</p>
-        </Row>
+        
+        </Row> */}
 
-        <Row className='menu-item-row'>
+        {/* <Row className='menu-item-row'>
             <p className='menu-item-title'>Chicken Strips & Fries</p>
             <p className='menu-item-description'>Four breaded chicken strips & fries. $13.99</p>
-        </Row>
+        
+        </Row> */}
 
-        <Row className='menu-item-row'>
+        {/* <Row className='menu-item-row'>
             <p className='menu-item-title'>Reuben Rolls</p>
             <p className='menu-item-description'>If you like our signature Reuben sandwich, you will love these. Corned beef, Swiss cheese & sauerkraut rolled into a light crust. $12.99</p>
-        </Row>
+        </Row> */}
 
-        <Row className='menu-item-row'>
+        {/* <Row className='menu-item-row'>
             <p className='menu-item-title'>Chicken Quesadilla</p>
             <p className='menu-item-description'>A large quesadilla with seasoned chicken, cheese, tomatoes, onions & Shuey’s sauce. $13.99</p>
-        </Row>
         
-        <Row className='menu-item-row'>
+        </Row> */}
+        
+        {/* <Row className='menu-item-row'>
             <p className='menu-item-title'>Chips & Queso Dip</p>
             <p className='menu-item-description'>Homemade queso & chips. $10.99 Add extra chips - $1.00 Add beef taco meat - $2.00</p>
-        </Row>
-
+        
+        </Row> */}
+{/* 
         <Row className='menu-item-row'>
             <p className='menu-item-title'>Wings</p>
             <p className='menu-item-description'>Bone-in or boneless wings served with your choice of sauce. $13.99</p>
-        </Row>
-
+        
+        </Row> */}
+{/* 
         <Row className='menu-item-row'>
             <p className='menu-item-title'>Shuey's Nachos</p>
             <p className='menu-item-description'>Fresh tortilla chips smothered in queso, lettuce, tomatoes, onions & jalapeños, with chicken or beef taco meat. $14.99</p>
-        </Row>
+        
+        </Row> */}
 
-        <Carousel className='menu-carousel'>
+        <Carousel className='menu-carousel d-sm-block d-md-none'>
       <Carousel.Item>
       <img src={RuebenRolls} className="image" alt="Rueben Rolls" />
      
@@ -165,7 +214,7 @@ function Menu (){
             <p className='menu-item-description'>1/3 lb burger with bacon, bleu cheese crumbles, A1 sauce & onion straws. $15.99</p>
         </Row>
        
-        <Carousel className='menu-carousel'>
+        <Carousel className='menu-carousel d-sm-block d-md-none'>
             <Carousel.Item>
                 <img src={SteakhouseBurger} className="image" alt="Steakhouse Burger" />
            
@@ -232,7 +281,7 @@ function Menu (){
             <p className='menu-item-description'>Hot turkey with bacon, Swiss cheese & honey mustard on a pretzel bun. $14.99</p>
             </Row>
 
-            <Carousel className='menu-carousel'>
+            <Carousel className='menu-carousel d-sm-block d-md-none'>
                 <Carousel.Item>
                     <img src={ChickenCordonBleu} className="image" alt="Chicken Cordon Bleu" />
                  
@@ -284,7 +333,7 @@ function Menu (){
             
             </Row>
 
-            <Carousel className='menu-carousel'>
+            <Carousel className='menu-carousel d-sm-block d-md-none'>
                 <Carousel.Item>
                     <img src={ChickenSalad} className="image" alt="Chicken Salad" />
                
@@ -342,7 +391,7 @@ function Menu (){
 
         </Container>
             
-        </Container>
+    </Container>
         </>
         )
 }

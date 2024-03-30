@@ -25,7 +25,7 @@ export default function SlideMenu() {
     return(
         <>
 
-        <button onClick={toggleVisibility}>
+        <button onClick={toggleVisibility} className="d-sm-block d-md-none">
             <img src={HamburgerButton}/>
         </button>
                 <div className={visible? "slide-menu-open":"slide-menu-closed"} >

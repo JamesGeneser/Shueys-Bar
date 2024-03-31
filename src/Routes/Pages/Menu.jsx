@@ -34,7 +34,7 @@ function Menu (){
     <Container className='menu-container'>
         <Row className='text-center'><h2 className='heading  '>Menu</h2></Row>
 
-        <Row className='m-5' id="top">
+        <Row className='m-4' id="top">
             <Col className='text-center' xs="4"><p><a className='menu-navigation' href="#appetizers">Appetizers</a></p></Col>
             <Col className='text-center' xs="4"><p><a className='menu-navigation' href="#burgers">Burgers</a></p></Col>
             <Col className='text-center' xs="4"><p><a className='menu-navigation' href="#sandwiches">Sandwiches</a></p></Col>
@@ -84,7 +84,7 @@ function Menu (){
             <p className='menu-item-description'>Fresh tortilla chips smothered in queso, lettuce, tomatoes, onions & jalapeños, with chicken or beef taco meat. $14.99</p>
         
             </Col>
-            <Col className='d-sm-none d-md-block'>
+            <Col className='d-none d-sm-block'>
                 <img src={RuebenRolls} alt="rueben rolls" className='small-image me-0'/>
                 <img src={ShueysNachos} alt="shueys nachos" className='small-image'/>
                 <img src={ChickenQuesadilla} alt="chicken quesadilla" className='small-image skew-right'/>
@@ -93,21 +93,21 @@ function Menu (){
             
         </Row>
 
-        <Carousel indicators={false} className='menu-carousel d-sm-block d-md-none'>
+        <Carousel indicators={false} className='menu-carousel d-block d-sm-none'>
       <Carousel.Item>
-      <img src={RuebenRolls} className="image" alt="Rueben Rolls" />
+      <img src={RuebenRolls} className="carousel-image" alt="Rueben Rolls" />
      
       </Carousel.Item> 
      <Carousel.Item>
-     <img src={ShueysNachos} className="image" alt="Shuey's Nachos" />
+     <img src={ShueysNachos} className="carousel-image" alt="Shuey's Nachos" />
    
       </Carousel.Item>
       <Carousel.Item>
-      <img src={ChickenQuesadilla} className="image" alt="Chicken Quesadilla" />
+      <img src={ChickenQuesadilla} className="carousel-image" alt="Chicken Quesadilla" />
   
       </Carousel.Item> 
       <Carousel.Item>
-      <img src={Wings} className="image" alt="Wings" />
+      <img src={Wings} className="carousel-image" alt="Wings" />
    
       </Carousel.Item> 
         </Carousel> 
@@ -143,21 +143,21 @@ function Menu (){
             <p className='menu-item-description'>1/3 lb burger with bacon, bleu cheese crumbles, A1 sauce & onion straws. $15.99</p>
             </Col>
 
-            <Col className='d-sm-none d-md-block'>
+            <Col className='d-none d-sm-block'>
                 <img src={SteakhouseBurger} alt="steak house burger" className='small-image skew-right'/>
                 <img src={DudekBurger} alt="dudek burger" className='small-image'/>
 
             </Col>  
         </Row>
 
-        <Carousel indicators={false}  className='menu-carousel d-sm-block d-md-none'>
+        <Carousel indicators={false}  className='menu-carousel d-xs-block d-sm-none'>
             <Carousel.Item>
-                <img src={SteakhouseBurger} className="image" alt="Steakhouse Burger" />
+                <img src={SteakhouseBurger} className="carousel-image" alt="Steakhouse Burger" />
            
             </Carousel.Item>
 
             <Carousel.Item>
-                <img src={DudekBurger} className="image" alt="Dudek Burger" />
+                <img src={DudekBurger} className="carousel-image" alt="Dudek Burger" />
       
             </Carousel.Item>
        </Carousel> 
@@ -201,7 +201,7 @@ function Menu (){
             <p className='menu-item-description'>Hot turkey with bacon, Swiss cheese & honey mustard on a pretzel bun. $14.99</p>
             </Col>
 
-            <Col className='d-sm-none d-md-block'>
+            <Col className='d-none d-sm-block'>
                 <img src={ChickenCordonBleu} alt="chicken cordon bleu" className='small-image skew-right'/>
                 <img src={BurntEndsMacAndCheese} alt="burnt ends mac and cheese" className='small-image'/>
                 <img src={Tenderloin} alt="tenderloin" className='small-image'/>
@@ -210,19 +210,19 @@ function Menu (){
         
  
 
-            <Carousel indicators={false}  className='menu-carousel d-sm-block d-md-none'>
+            <Carousel indicators={false}  className='menu-carousel d-block d-sm-none'>
                 <Carousel.Item>
-                    <img src={ChickenCordonBleu} className="image" alt="Chicken Cordon Bleu" />
+                    <img src={ChickenCordonBleu} className="carousel-image" alt="Chicken Cordon Bleu" />
                  
                 </Carousel.Item> 
 
                 <Carousel.Item>
-                    <img src={BurntEndsMacAndCheese} className="image" alt="Burnt Ends Mac & Cheese Sandwich" />
+                    <img src={BurntEndsMacAndCheese} className="carousel-image" alt="Burnt Ends Mac & Cheese Sandwich" />
                  
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img src={Tenderloin} className="image" alt="Pork Tenderloin" />
+                    <img src={Tenderloin} className="carousel-image" alt="Pork Tenderloin" />
                
                 </Carousel.Item> 
       
@@ -254,21 +254,21 @@ function Menu (){
                 <p className='menu-item-description'>Fresh greens in a crispy tortilla shell topped with tomato, jalapeños, red onion & shredded cheese. Choose grilled chicken or taco meat. Served with salsa & sour cream. $14.99</p>
 
                 </Col>
-                <Col className='d-sm-none d-md-block'>
+                <Col className='d-none d-sm-block'>
                 <img src={ChickenSalad} alt="chicken salad" className='small-image skew-right'/>
                 <img src={TacoSalad} alt="taco salad" className='small-image'/>
                 </Col> 
             </Row>
 
 
-            <Carousel indicators={false}  className='menu-carousel d-sm-block d-md-none'>
+            <Carousel indicators={false}  className='menu-carousel d-block d-sm-none'>
                 <Carousel.Item>
-                    <img src={ChickenSalad} className="image" alt="Chicken Salad" />
+                    <img src={ChickenSalad} className="carousel-image" alt="Chicken Salad" />
                
                 </Carousel.Item> 
 
                 <Carousel.Item>
-                    <img src={TacoSalad} className="image" alt="Taco Salad" />
+                    <img src={TacoSalad} className="carousel-image" alt="Taco Salad" />
          
                 </Carousel.Item>     
             </Carousel> 
@@ -294,10 +294,10 @@ function Menu (){
                 <p className='menu-item-title'>Asian Bowl</p>
                 <p className='menu-item-description'>Grilled chicken & stir-fry vegetables with teriyaki sauce served over a bed of rice.</p>
                 </Col>
-                <Col className='d-sm-none d-md-block'>
+                <Col className='d-none d-sm-block'>
                 <img src={BigBangWrap} alt="big bang wrap" className='small-image skew-right'/>
-
                 </Col>
+
                 </Row>
             </Container>
         <Container className='kids-menu-features-container'>

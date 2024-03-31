@@ -38,7 +38,7 @@ return(
             </Row>
         </Container>
 
-        <Container fluid className='happy-hour-container p-5 m-5'>
+        <Container fluid className='happy-hour-container p-2 m-5'>
             <Row className='text-center'> 
                 <Col lg={6} className="	d-none d-lg-block">
                     <img className='border ' src={Windows} alt='View of patio through the windows'></img>
@@ -71,20 +71,32 @@ return(
     </Row>
     
     <Row className='mt-4 mb-5'>
-        <Col>
+        <Col className='review-column'>
             <h2 className='heading text-center'>Reviews</h2>
 
-            <Carousel indicators={false} className="align-items-center d-flex flex-column justify-content-around" activeIndex={index} onSelect={handleSelect}>
-                <Carousel.Item className="review-carousel text-center">
-                    <p className='mt-4 mb-4 p-5'>“Went to Shuey's to watch the Iowa game with my family and had a super positive experience! The food was great (I got the chicken quesadilla), the staff was nice and chatted with us for a bit, and the energy there for the game was super fun. Probably our new go-to spot for games!”</p>
+            <Carousel indicators={false} className="align-items-center" activeIndex={index} onSelect={handleSelect}>
+                <Carousel.Item className="review-carousel text-center ps-5 pe-5">
+                    <p className='mt-5 p-5'>“Went to Shuey's to watch the Iowa game with my family and had a super positive experience! The food was great (I got the chicken quesadilla), the staff was nice and chatted with us for a bit, and the energy there for the game was super fun. Probably our new go-to spot for games!”</p>
+                    <div className='d-flex justify-content-end me-5'>
+                        <p >-Madison S.</p>
+                    </div>
+                    
                 </Carousel.Item>
                 
-                <Carousel.Item className="review-carousel text-center">
+                <Carousel.Item className="review-carousel text-center ps-5 pe-5">
                     <p className='mt-4 mb-4 p-5'>I liked the quesadilla that I ordered. Plenty of TVs to watch any sports you may desire. Service was quick and accurate. Their new building is quite the upgrade!</p>
+                    <div className='d-flex justify-content-end me-5'>
+                    <p>-Nick B.</p>
+                    </div>
+                    
                 </Carousel.Item>
                 
-                <Carousel.Item className="review-carousel text-center">
+                <Carousel.Item className="review-carousel text-center ps-5 pe-5">
                     <p className='mt-4 mb-4 p-5'>Food was great, customer service was prompt and very helpful when I had questions about the menu. Looking forward to watching the Buffalo Bills games this fall and winter here. Go Bills!</p>
+                    <div className='d-flex justify-content-end me-5'>
+                    <p>-Philip F.</p>
+                    </div>
+                    
                 </Carousel.Item>
             </Carousel>
         </Col>

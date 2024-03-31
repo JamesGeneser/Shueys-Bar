@@ -6,6 +6,8 @@ import ContactBanner from '../../images/contact-banner.jpeg';
 import Patio from '../../images/patio.jpeg';
 import { Button } from 'react-bootstrap';
 
+import ShueysMap from '../../images/shueys-location-map.png'
+
 export default function Contact() {
   return (
     <>
@@ -13,13 +15,13 @@ export default function Contact() {
       <Container fluid className="contact-container">
    
         <Row className='text-center m-5'>
-          <Col >
+
             <h1 className='heading'>Contact Us</h1>
-          </Col>
+
         </Row>
 
         <Row className='text-center location'>
-          <Col className='bebas '>
+          <Col className='bebas'>
             <h3 className="mb-3">Location:</h3>
             <p className='m-0 p-0'>1158 Club Rd NE</p>
             <p className='m-0 p-0'>Cedar Rapids, IA 52333</p>
@@ -29,6 +31,88 @@ export default function Contact() {
               <h3 className=''>Phone Number:</h3>
               <p >319-848-2220</p>
             </div>
+                <Container className='hours-container d-sm-none d-md-block' >
+                  <Row className='text-left mt-5'>
+                    <Col  className='bebas'>
+                      <h3>Hours:</h3>
+                    </Col>
+                  </Row>
+
+                  <Row className='ms-5 me-4'>
+                    <Col xs={5}  className='bebas'>
+                      <p>Sunday</p>
+                    </Col>
+                    <Col xs={7} className='bebas'>
+                      <p>8:00AM-10:00PM</p>
+                    </Col>
+                  </Row>
+
+                  <Row className='ms-5 me-4'>
+                    <Col xs={5}  className='bebas'>
+                      <p>Monday</p>
+                    </Col>
+                    <Col xs={7} className='bebas'>
+                      <p>11:00AM-10:00PM</p>
+                    </Col>
+                  </Row>
+
+                  <Row className='ms-5 me-4'>
+                    <Col xs={5}  className='bebas'>
+                      <p>Tuesday</p>
+                    </Col>
+                    <Col xs={7}  className='bebas'>
+                      <p>11:00AM-10:00PM</p>
+                    </Col>
+                  </Row>
+
+                  <Row className='ms-5 me-4'>
+                    <Col xs={5} className='bebas'>
+                      <p>Wednesday</p>
+                    </Col>
+                    <Col xs={7} className='bebas'>
+                      <p>11:00AM-10:00PM</p>
+                    </Col>
+                  </Row>
+
+                  <Row className='ms-5 me-4'>
+                    <Col xs={5}  className='bebas'>
+                      <p>Thursday</p>
+                    </Col>
+                    <Col xs={7}  className='bebas'>
+                      <p>11:00AM-10:00PM</p>
+                    </Col>
+                  </Row>
+
+                  <Row className='ms-5 me-4'>
+                    <Col xs={5}  className='bebas'>
+                      <p>Friday</p>
+                    </Col>
+                    <Col xs={7}  className='bebas'>
+                      <p>11:00AM-1:00AM</p>
+                    </Col>
+                  </Row>
+
+                  <Row className='ms-5 me-4'>
+                    <Col xs={5}  className='bebas '>
+                      <p >Saturday</p>
+                    </Col>
+                    <Col xs={7} className='bebas'>
+                      <p>8:00AM-1:00AM</p>
+                    </Col>
+                  </Row>
+                </Container>
+            <div className='d-flex flex-column d-sm-none d-md-block'>
+              <h3 >Phone Number:</h3>
+              <p>319-848-2220</p>
+            </div>
+            
+          </Col>
+          <Col className='m-5 p-0  d-sm-none d-md-block'>
+            <img src={Patio} className= "image p-0 m-0 mb-5 border"/>
+
+            <a target="_blank" href={`https://www.google.com/maps/place/Shuey's/@41.8508227,-91.6484431,683m/data=!3m1!1e3!4m7!3m6!1s0x87e4599286927c07:0xd77098b654accb4b!4b1!8m2!3d41.8508187!4d-91.6458682!16s%2Fg%2F11ksbbr0rx?entry=ttu`}>
+              <img className='image border' src={ShueysMap} alt="satellite map of Shueys Bar location. on Club Road NE at the corner of Club and Water Street"/>
+            </a>
           </Col>
 
             <Col  className='bebas hours-small-screen d-none d-sm-block d-md-none'>
@@ -105,90 +189,19 @@ export default function Contact() {
           </Row>
 
 
-         
+        <div className='d-none d-sm-block d-md-none d-flex flex-row align-items-center'>
+          <img src={Patio} className= "small-location-image p-0 m-0 mb-5 border"/>
+          <a target="_blank" href={`https://www.google.com/maps/place/Shuey's/@41.8508227,-91.6484431,683m/data=!3m1!1e3!4m7!3m6!1s0x87e4599286927c07:0xd77098b654accb4b!4b1!8m2!3d41.8508187!4d-91.6458682!16s%2Fg%2F11ksbbr0rx?entry=ttu`}>
+          <img className='small-location-image border' src={ShueysMap} alt="satellite map of Shueys Bar location. on Club Road NE at the corner of Club and Water Street"/>
+        </a>
 
 
-
-       
-
-       
-
+  
         
 
-          
 
 
-
-        <Container className='hours-container 	d-block d-sm-none' >
-          <Row className='text-center mt-5'>
-            <Col  className='bebas'>
-              <h3>Hours:</h3>
-            </Col>
-          </Row>
-
-          <Row className='ms-5 me-4'>
-            <Col xs={5}  className='bebas'>
-              <p>Sunday</p>
-            </Col>
-            <Col xs={7} className='bebas'>
-              <p>8:00AM-10:00PM</p>
-            </Col>
-          </Row>
-
-          <Row className='ms-5 me-4'>
-            <Col xs={5}  className='bebas'>
-              <p>Monday</p>
-            </Col>
-            <Col xs={7} className='bebas'>
-              <p>11:00AM-10:00PM</p>
-            </Col>
-          </Row>
-
-          <Row className='ms-5 me-4'>
-            <Col xs={5}  className='bebas'>
-              <p>Tuesday</p>
-            </Col>
-            <Col xs={7}  className='bebas'>
-              <p>11:00AM-10:00PM</p>
-            </Col>
-          </Row>
-
-          <Row className='ms-5 me-4'>
-            <Col xs={5} className='bebas'>
-              <p>Wednesday</p>
-            </Col>
-            <Col xs={7} className='bebas'>
-              <p>11:00AM-10:00PM</p>
-            </Col>
-          </Row>
-
-          <Row className='ms-5 me-4'>
-            <Col xs={5}  className='bebas'>
-              <p>Thursday</p>
-            </Col>
-            <Col xs={7}  className='bebas'>
-              <p>11:00AM-10:00PM</p>
-            </Col>
-          </Row>
-
-          <Row className='ms-5 me-4'>
-            <Col xs={5}  className='bebas'>
-              <p>Friday</p>
-            </Col>
-            <Col xs={7}  className='bebas'>
-              <p>11:00AM-1:00AM</p>
-            </Col>
-          </Row>
-
-          <Row className='ms-5 me-4'>
-            <Col xs={5}  className='bebas '>
-              <p >Saturday</p>
-            </Col>
-            <Col xs={7} className='bebas'>
-              <p>8:00AM-1:00AM</p>
-            </Col>
-          </Row>
-        </Container>
+        </div>
 
         <Row className='text-center mt-4 d-block d-sm-none'>
           <Col className='bebas'>
@@ -197,11 +210,6 @@ export default function Contact() {
           </Col>
         </Row>
 
-        <Row className='text-center'>
-          <Col className='m-5 p-0 border'>
-            <img src={Patio} className= "image p-0 m-0"/>
-          </Col>
-        </Row>
 
         <Row className='text-center'>
           <Col >

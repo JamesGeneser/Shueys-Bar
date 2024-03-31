@@ -13,6 +13,7 @@ import Card from 'react-bootstrap/Card';
 import Collapse from 'react-bootstrap/Collapse';
 import HamburgerButton from '../images/HamburgerButton.svg'
 import { useEffect } from 'react';
+import { Navbar } from 'react-bootstrap';
 
 export default function SlideMenu() {
 
@@ -40,15 +41,18 @@ export default function SlideMenu() {
         <button onClick={toggleVisibility} className="d-sm-block d-md-none">
             <img src={HamburgerButton}/>
         </button>
-             
+                <Navbar>    
                     <Container ref={menuRef}  className={`slide-menu-container bebas text-center d-sm-block d-md-none ${visible? "slide-menu-open":"slide-menu-closed"}`}>
                         <img src={ShueysLogo} className="image" alt='Shueys logo'/>
-                        <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/">Home</Nav.Link>
-                        <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/menu">Menu</Nav.Link>
-                        <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/contact">Contact</Nav.Link>
-                        <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/about">About</Nav.Link>
-                        <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/apply">Apply</Nav.Link>
+
+                            <Nav.Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/">Home</Nav.Link>
+                            <Nav.Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/menu">Menu</Nav.Link>
+                            <Nav.Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/contact">Contact</Nav.Link>
+                            <Nav.Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/about">About</Nav.Link>
+                            <Nav.Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/apply">Apply</Nav.Link>
+
                     </Container>
+                </Navbar>
 
                    
                     

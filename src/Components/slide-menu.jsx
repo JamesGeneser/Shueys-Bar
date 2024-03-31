@@ -11,7 +11,8 @@ import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import Collapse from 'react-bootstrap/Collapse';
-import HamburgerButton from '../images/HamburgerButton.png'
+import HamburgerButton from '../images/HamburgerButton.svg'
+import { useEffect } from 'react';
 
 export default function SlideMenu() {
 
@@ -21,6 +22,17 @@ export default function SlideMenu() {
             setVisible(!visible)
         }
 
+        let menuRef = useRef()
+        useEffect(() => {
+            let handler = (e) => {
+                if(!menuRef.current.contains(e.target)){
+                    setVisible(false)
+                }
+               
+            }
+            document.addEventListener('mousedown', handler)
+        })
+
 
     return(
         <>
@@ -28,8 +40,8 @@ export default function SlideMenu() {
         <button onClick={toggleVisibility} className="d-sm-block d-md-none">
             <img src={HamburgerButton}/>
         </button>
-                <div className={visible? "slide-menu-open":"slide-menu-closed"} >
-                    <Container fluid className='slide-menu-container bebas text-center'>
+             
+                    <Container ref={menuRef}  className={`slide-menu-container bebas text-center d-sm-block d-md-none ${visible? "slide-menu-open":"slide-menu-closed"}`}>
                         <img src={ShueysLogo} className="image" alt='Shueys logo'/>
                         <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/">Home</Nav.Link>
                         <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/menu">Menu</Nav.Link>
@@ -37,7 +49,7 @@ export default function SlideMenu() {
                         <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/about">About</Nav.Link>
                         <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/apply">Apply</Nav.Link>
                     </Container>
-                </div>
+
                    
                     
         

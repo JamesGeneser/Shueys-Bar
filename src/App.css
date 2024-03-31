@@ -4,8 +4,12 @@ body{
     font-size: 16px;
 }
 
+
 .bebas{
     font-family: 'Bebas Neue', sans-serif;
+}
+.public-sans{
+    font-family: 'Public Sans Variable', sans-serif;
 }
 .border{
     border: 10px solid black !important;
@@ -36,10 +40,8 @@ body{
 }
 
 /* NAVIGATION */
-.navigation-container{
-    background-color: #EDD3BA;
 
-}
+
 
 .navbar{
     width: 100%;
@@ -60,40 +62,28 @@ button {
     top: 0;
     right: 0;
 height: 1000px;
-width: 250px;
+width: 50%;
 background-color: black !important;
 font-size: 40px;
 color: white;
 z-index: 99;
 }
-@keyframes slide-in {
-    from {
-        transform: translateX(300px)  translateY(-312px);
-    }
-    to{
-        transform: translateX(0px) translateY(-312px);
-        
-    }
-}
-@keyframes slide-out {
-    from {
-        transform: translateX(0px)  translateY(-312px);
-    }
-    to{
-        transform: translateX(300px)  translateY(-312px);
-        visibility: hidden;
-    }
-}
+
+
+.slide-menu-closed{
+
+    transition: ease-out 600ms;
+    translate: 100%
+} 
 .slide-menu-open{
-    animation: forwards slide-in 1000ms;
+    transition: ease-in 300ms;
+    translate: 0;
 
 }
-.slide-menu-closed{
-    animation: forwards slide-out 1000ms;
-} 
 
 
 .shueys-logo{
+    width: 100%;
     position: relative;
     top: 90px;
 }
@@ -200,6 +190,16 @@ a:active {
     border-left-width: 25px ;
     border-right-width: 25px ;
 }
+.kids-menu-box{
+    border: 10px solid black;
+}
+.features-box{
+    border: 10px solid black;
+}
+.back-to-top{
+    font-size: 40px;
+    color: black !important;
+}
 
 /* CONTACT */
 .hours-container{
@@ -255,6 +255,9 @@ a:active {
     .sub-heading{
         font-size: 36px;
     }
+    .menu-banner{
+        width: 140%;
+    }
 
     .menu-navigation{
 
@@ -304,14 +307,22 @@ a:active {
 .phone-number{
     text-align: left !important;
 }
-
+.menu-banner{
+    width: 120%;
+}
+.menu-subtitle{
+    text-align: center;
+}
 }
 
 /* MEDIUM: SMALL SCREENS & LAPTOPS */
 @media screen and (769px <= width <= 1024px){
      /* NAVBAR */
  .navbar{
-    height: 120px;
+
+}
+.navigation-item{
+    font-size: 30px;
 }
 .shueys-logo{
     position: relative;
@@ -326,19 +337,18 @@ a:active {
 .sub-heading{
     font-size: 40px;
 }
-.public-sans{
-    font-size: 24px;
-}
+
 /* MENU */
 .menu-container{
     padding:6%
 }
+.menu-banner{
+    width: 110%;
+}
 .menu-navigation{
     font-size: 36px;
 }
-.skew-right{
-    margin-left: 90px;
-}
+
 .appetizer-container{
     margin-left: 100px;
 }
@@ -367,7 +377,7 @@ a:active {
 @media screen and (1025px <= width <= 1200px){
  /* NAVBAR */
  .navbar{
-    height: 120px;
+
 }
 /* MENU */
 .menu-container{
@@ -383,9 +393,7 @@ a:active {
 .menu-navigation{
     font-size: 36px;
 }
-.skew-right{
-    margin-left: 150px;
-}
+
 .appetizer-container{
     margin-left: 100px;
 }
@@ -419,9 +427,7 @@ a:active {
 
 /* EXTRA LARGE SCREENS */
 @media screen and (1201px <= width){
-    .navbar{
-        height: 120px;
-    }
+
 
     .nav-link{
         font-size: 40px;
@@ -439,10 +445,9 @@ a:active {
     /* MENU */
 .menu-container{
     padding: 10%;
+    padding-top: 6%;
 }
-.skew-right{
-    margin-left: 350px;
-}
+
 .menu-navigation{
     font-size: 40px;
 }

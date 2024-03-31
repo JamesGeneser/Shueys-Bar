@@ -16,54 +16,49 @@ import HamburgerButton from '../images/HamburgerButton.png'
 
 function Navigation() {
 
-    // const [visible, setVisible] = useState(false)
-
-    // const toggleVisibility = () => {
-    //     setVisible(!visible)
-    // }
-
-
 
   return (
     <div>
-    <Navbar  expand="lg" className="bg-body-tertiary p-0">
+    <Navbar   className="p-4 mt-0 pt-0 py-0">
       <Container fluid className="navigation-container">
 
 
-      <Row className="">
+      <Row >
    
-          <Col xs={4} sm={4} md={3} lg={3}>
+          <Col xs={6} sm={4} md={3} lg={3}>
             <img src={ShueysLogo} alt="Shueys Logo" className="image shueys-logo m-1"/>  
           </Col>
 
-          <Col xs={2} className=" d-sm-block d-md-none mt-auto pb-4 text-center">
+          <Col xs={2} sm={1} className=" d-sm-block d-md-none mt-auto pb-2 text-center">
             <a href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
           </Col>
 
-          <Col xs={2} md={6} lg={6} className="mt-auto mb-0 pt-4"> 
+          <Col md={6} lg={6} className="mt-auto mb-0 d-none d-md-block"> 
      
           
     
-            {/* <Navbar.Toggle aria-controls="basic-navbar-nav" className="m-4" /> */}
-            {/* <Navbar.Collapse id="basic-navbar-nav" className="navbar m-2"> */}
-              <Nav className="bebas gap-4 mt-auto d-none d-md-block">
+         
+          <Navbar className=" d-flex align-items-baseline"> 
+              <Nav className="bebas gap-4 ">
             
-                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/">Home</Nav.Link>
-                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/menu">Menu</Nav.Link>
-                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/contact">Contact</Nav.Link>
-                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/about">About</Nav.Link>
-                <Nav.Link className="navigation-item"  as={NavLink} to="Shueys-Bar/apply">Apply</Nav.Link>
+                <Navbar.Text className="navigation-item"  as={NavLink} to="Shueys-Bar/">Home</Navbar.Text>
+                <Navbar.Text className="navigation-item"  as={NavLink} to="Shueys-Bar/menu">Menu</Navbar.Text>
+                <Navbar.Text className="navigation-item"  as={NavLink} to="Shueys-Bar/contact">Contact</Navbar.Text>
+                <Navbar.Text className="navigation-item"  as={NavLink} to="Shueys-Bar/about">About</Navbar.Text>
+                <Navbar.Text className="navigation-item"  as={NavLink} to="Shueys-Bar/apply">Apply</Navbar.Text>
               </Nav>
-          {/* </Navbar.Collapse> */}
+          </Navbar>
           
           </Col>
 
-          <Col xs={2} lg={2} className="d-none d-md-block mt-auto pb-4 ms-5">
+          <Col xs={2} lg={2} className="d-none d-md-block mt-auto pb-3 ms-5">
             <a className="d-flex justify-content-end" href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
           </Col>
 
-
-              <SlideMenu />
+          <Col xs={2} className="d-flex align-items-end ms-4">
+          <SlideMenu />
+          </Col>
+              
  
              
         

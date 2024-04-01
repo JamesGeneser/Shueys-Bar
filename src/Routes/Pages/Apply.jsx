@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import ApplyBanner from '../../images/apply-banner.jpeg';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
+
 
 export default function Apply() {
   return (
@@ -25,8 +25,8 @@ export default function Apply() {
         </Col>
       </Row>
       <Row className='text-center'>
-        <Col  className='d-flex flex-column align-items-center mt-4 contact-column'>
-          <h2 className='sub-heading bebas'>Contact Form</h2>
+        <Col className='d-flex flex-column align-items-center mt-4 contact-column'>
+          <h2 className='sub-heading bebas mb-4'>Contact Form</h2>
 
           <Form className='pt-2 m-1 mb-4 form align-items-center'>
 

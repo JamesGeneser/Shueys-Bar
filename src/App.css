@@ -49,14 +49,17 @@ body{
 
 .navbar{
     width: 100% ;
-
+    height: 30vh;
+  
  
 }
 .nav-row{
     width: 100%;
+    height: 100%;
 }
 .navigation-container{
     width: 100%;
+    height: 100%;
 }
 
 .navigation-item{
@@ -65,7 +68,7 @@ body{
     margin: 2%;
 }
 .shueys-column{
-    max-height: 38vh;
+    max-height: 20vh;
 }
 button {
     border: none;
@@ -258,12 +261,16 @@ a:active {
 }
 
 /* APPLY */
-.contact-column{
+.apply-container{
     width: 100%;
+}
+.contact-column{
+    margin-left: 30%;
+    margin-right:30%;
 }
 .form{
     background-color: #161616A6;
-    width: 200px
+width: 100%;
 }
 .form-input{
     color: white;
@@ -277,9 +284,7 @@ a:active {
     color: white;
     border-radius: 0% !important;
 }
-.apply-container{
-    max-width: 70%;
-}
+
 
 /* ABOUT */
 .border-vertical{
@@ -380,7 +385,7 @@ a:active {
 }
 .shueys-logo{
     position: relative;
-    top: 60px;
+    top: 1vh;
 }
 .facebook-logo-footer{
     width: 55px;

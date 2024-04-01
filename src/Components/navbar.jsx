@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+
 import { Link, NavLink } from "react-router-dom";
 import { Outlet } from 'react-router-dom';
 import SlideMenu from "./slide-menu";
@@ -37,9 +37,9 @@ function Navigation() {
      
             <Link className="navigation-item"  to="Shueys-Bar/">Home</Link>
             <Link className="navigation-item"  to="Shueys-Bar/menu">Menu</Link>
-            <Link className="navigation-item"  to="Shueys-Bar/menu">Contact</Link>
-            <Link className="navigation-item"  to="Shueys-Bar/menu">About</Link>
-            <Link className="navigation-item"  to="Shueys-Bar/menu">Apply</Link>
+            <Link className="navigation-item"  to="Shueys-Bar/contact">Contact</Link>
+            <Link className="navigation-item"  to="Shueys-Bar/about">About</Link>
+            <Link className="navigation-item"  to="Shueys-Bar/apply">Apply</Link>
 
 
           

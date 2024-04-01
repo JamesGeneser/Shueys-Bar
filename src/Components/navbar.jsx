@@ -19,14 +19,14 @@ function Navigation() {
 
   return (
     <>
-    <Navbar   className="p-4 mt-0 pt-0 py-0 d-flex"> 
+    <Navbar   className="p-3 mt-0 pt-0 py-0 d-flex"> 
       <Container fluid className="navigation-container mt-auto">
 
 
       <Row className="nav-row d-flex justify-content-between">
    
           <Col xs={6} sm={4} md={3} lg={3} className="shueys-column">
-            <img src={ShueysLogo} alt="Shueys Logo" className="image shueys-logo m-1 mt-0 py-0 "/>  
+            <img src={ShueysLogo} alt="Shueys Logo" className="image shueys-logo  mt-0 "/>  
           </Col>
 
           <Col xs={2} sm={1} className=" d-sm-block d-md-none mt-auto pb-2 text-center">
@@ -45,7 +45,7 @@ function Navigation() {
           
           </Col>
 
-          <Col md={2} lg={1} className="d-none d-md-block mt-auto pb-3">
+          <Col  md={2} lg={1} className="d-none d-md-block mt-auto pb-3">
             <a className="d-flex justify-content-end" href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
           </Col>
 

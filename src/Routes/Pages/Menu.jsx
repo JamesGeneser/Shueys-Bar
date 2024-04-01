@@ -125,7 +125,7 @@ function Menu (){
 
 
 
-        <Row className='menu-item-row ms-5'>
+        <Row className='menu-item-row '>
             <Col>
             <p className='menu-item-title'>Shuey's Burger</p>
             <p className='menu-item-description'>1/3 lb burger cooked to perfection. $12.99</p>
@@ -165,12 +165,12 @@ function Menu (){
     </Container>
 
 
-        <Row className='subtitle-row'>
+        <Row className='subtitle-row '>
             <h3 className='menu-subtitle' id="sandwiches">Sandwiches</h3>
             <p className='menu-subtitle-description'>All sandwiches are served with french fries. Substitute cottage cheese or coleslaw for $2.99 or a side salad for $4.29.</p>
         </Row>
         
-        <Container className='sandwich-container ms-5'>
+        <Container className='sandwich-container '>
             <Row className='menu-item-row'>
             <Col>
             <p className='menu-item-title'>Shuey's BLT</p>
@@ -234,9 +234,9 @@ function Menu (){
             <h3 className='menu-subtitle' id="salads">Salads</h3>
             <p className='menu-subtitle-description'>Dressings: Ranch, Thousand Island, Bleu Cheese, French, Honey Mustard, Peppered Ranch or Balsamic Vinaigrette.</p>
         </Row>
-        
-        <Container className='salad-container'>
-            <Row className='menu-item-row ms-5'>
+
+        <Container className='salad-container text-center'>
+            <Row className='menu-item-row '>
                 <Col>
                 <p className='menu-item-title'>Asian Chicken Salad</p>
                 <p className='menu-item-description'>Crisp greens topped with grilled or breaded chicken, with stir-fry vegetables & crispy rice noodles. $14.99</p>
@@ -275,12 +275,12 @@ function Menu (){
         </Container>
 
 
-        <Row className='subtitle-row'>
+        <Row className='subtitle-row '>
         <h3 className='menu-subtitle' id="wraps">Wraps</h3>
         <p className='menu-subtitle-description'>All wraps served with french fries. Substitute cottage cheese or coleslaw for $2.99 or a side salad for $4.29.</p>
         </Row>
         <Container className='wrap-container'>
-                <Row className='menu-row ms-5'>
+                <Row className='menu-row '>
                 <Col>
                 <p className='menu-item-title'>Bang Bang Wrap</p>
                 <p className='menu-item-description'>Breaded or grilled chicken tossed in sweet chili sauce with lettuce, tomato, green onions & shredded cheese. Cut in half and topped with Shuey’s sauce. $15.29</p>

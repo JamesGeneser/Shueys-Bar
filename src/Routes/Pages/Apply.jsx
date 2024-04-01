@@ -12,7 +12,7 @@ export default function Apply() {
   return (
     <>
     <img src={ApplyBanner} className="image"/>
-    <Container  className="apply-container">
+    <Container fluid className="apply-container m-4 d-flex flex-column justify-content-center">
 
       <Row className='text-center mt-4'>
         <Col>
@@ -25,7 +25,7 @@ export default function Apply() {
         </Col>
       </Row>
       <Row className='text-center'>
-        <Col  className='d-flex flex-column align-items-center mt-4'>
+        <Col  className='d-flex flex-column align-items-center mt-4 contact-column'>
           <h2 className='sub-heading bebas'>Contact Form</h2>
 
           <Form className='pt-2 m-1 mb-4 form align-items-center'>

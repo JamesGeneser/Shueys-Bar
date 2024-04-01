@@ -48,10 +48,14 @@ body{
 
 
 .navbar{
-    width: 100%;
+    width: 100% ;
+
  
 }
 .nav-row{
+    width: 100%;
+}
+.navigation-container{
     width: 100%;
 }
 
@@ -92,6 +96,10 @@ z-index: 99;
     translate: 0;
 
 }
+.slide-menu-logo{
+    align-self: center;
+    width: 70%;
+}
 .slide-navigation-item{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
@@ -101,7 +109,7 @@ z-index: 99;
 
 .shueys-logo{
     width: 100%;
-    max-width: 20vw;
+    max-width: 50vw;
     position: relative;
     top: 12vh;
 }
@@ -250,8 +258,12 @@ a:active {
 }
 
 /* APPLY */
+.contact-column{
+    width: 100%;
+}
 .form{
     background-color: #161616A6;
+    width: 200px
 }
 .form-input{
     color: white;
@@ -277,10 +289,10 @@ a:active {
 }
 
 /* APPLY */
-.form{
+/* .form{
     max-width: 60%;
-    min-width: 60%;
-}
+    min-width: 60%; */
+
 
 /* MOBILE DEVICES */
 @media screen and (width <= 480px){
@@ -296,9 +308,7 @@ a:active {
     .sub-heading{
         font-size: 36px;
     }
-    .menu-banner{
-        width: 140%;
-    }
+
 
     .menu-navigation{
 
@@ -307,6 +317,7 @@ a:active {
 
     .subtitle-row{
         text-align: center;
+  
     }
     .menu-subtitle{
         font-size: 32px;
@@ -348,14 +359,13 @@ a:active {
 .phone-number{
     text-align: left !important;
 }
-.menu-banner{
-    width: 120%;
-}
+
 .menu-navigation{
     font-size: 35px;
 }
 .menu-subtitle{
     text-align: center;
+    margin-top: 15vh;
 }
 }
 
@@ -463,8 +473,8 @@ a:active {
     max-width: 20% !important;
 }
 .form{
-    max-width: 45%;
-    min-width: 45%;
+    /* max-width: 45%;
+    min-width: 45%; */
 }
 
 }
@@ -514,8 +524,8 @@ a:active {
 }
 
 /* APPLY */
-.form{
+/* .form{
     max-width: 45%;
     min-width: 45%;
-}
+} */
 }

@@ -13,11 +13,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@fontsource-variable/public-sans": "^5.0.17",
     "@fontsource/bebas-neue": "^5.0.18",
     "@popperjs/core": "^2.11.8",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.2",
+    "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",

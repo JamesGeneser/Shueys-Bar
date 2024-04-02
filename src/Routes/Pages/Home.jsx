@@ -77,15 +77,15 @@ return(
 
             <Carousel indicators={false} className="align-items-center" activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item className="review-carousel text-center ps-5 pe-5">
-                    <p className='mt-1 mb-1 p-5 review-text'>“Went to Shuey's to watch the Iowa game with my family and had a super positive experience! The food was great (I got the chicken quesadilla), the staff was nice and chatted with us for a bit, and the energy there for the game was super fun. Probably our new go-to spot for games!”</p>
+                    <p className='mt-1 mb-1 p-5'>“Went to Shuey's to watch the Iowa game with my family and had a super positive experience! The food was great (I got the chicken quesadilla), the staff was nice and chatted with us for a bit, and the energy there for the game was super fun. Probably our new go-to spot for games!”</p>
                     <div className='d-flex justify-content-end me-5'>
-                        <p className='ps-2'>-Madison S.</p>
+                        <p >-Madison S.</p>
                     </div>
                     
                 </Carousel.Item>
                 
                 <Carousel.Item className="review-carousel text-center ps-5 pe-5">
-                    <p className='mt-4 mb-5 p-5 review-text'>I liked the quesadilla that I ordered. Plenty of TVs to watch any sports you may desire. Service was quick and accurate. Their new building is quite the upgrade!</p>
+                    <p className='mt-4 mb-5 p-5'>I liked the quesadilla that I ordered. Plenty of TVs to watch any sports you may desire. Service was quick and accurate. Their new building is quite the upgrade!</p>
                     <div className='d-flex justify-content-end me-5'>
                     <p>-Nick B.</p>
                     </div>
@@ -93,7 +93,7 @@ return(
                 </Carousel.Item>
                 
                 <Carousel.Item className="review-carousel text-center ps-sm-5 pe-sm-5">
-                    <p className='mt-4 mb-5 p-5 review-text'>Food was great, customer service was prompt and very helpful when I had questions about the menu. Looking forward to watching the Buffalo Bills games this fall and winter here. Go Bills!</p>
+                    <p className='mt-4 mb-5 p-5'>Food was great, customer service was prompt and very helpful when I had questions about the menu. Looking forward to watching the Buffalo Bills games this fall and winter here. Go Bills!</p>
                     <div className='d-flex justify-content-end me-5'>
                     <p>-Philip F.</p>
                     </div>

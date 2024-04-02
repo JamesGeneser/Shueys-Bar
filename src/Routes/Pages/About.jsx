@@ -20,7 +20,7 @@ export default function About() {
 
 
         <Row className='d-flex justify-content-center'>
-          <Col md={6} className="text-center m-1 p-4">
+          <Col md={6} className="text-center m-1 shueys-story p-4">
             <p>Known as the “Cheers” of Shueyville, Shuey’s Restaurant & Lounge is a local hot spot for neighborhood gatherings, watching Iowa athletics, or enjoying a nice bite to eat. </p>
             <br/>
             <p>

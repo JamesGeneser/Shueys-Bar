@@ -162,6 +162,7 @@ width: 100%;
     color: white;
     width: 100%;
     height: 336px;
+    font-size: 16pt;
 }
 .review-column{
     margin-left: 20vw;
@@ -257,6 +258,11 @@ a:active {
 .small-location-image{
     width: 50%;
 }
+/* ABOUT */
+.shueys-story{
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
 
 /* APPLY */
 .apply-container{
@@ -311,7 +317,17 @@ width: 100%;
     .sub-heading{
         font-size: 36px;
     }
+/* HOME */
+.review-carousel{
+    font-size: 12pt;
 
+}
+.review-text{
+    padding-top: 5% !important;
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+    padding-bottom: 0% !important;
+}
 
     .menu-navigation{
 
@@ -415,6 +431,10 @@ width: 100%;
     .sub-heading{
         font-size: 40px;
     }
+/* HOME */
+.review-carousel{
+    font-size: 14pt;
+}
     /* CONTACT */
 .location{
     /* text-align: left !important;
@@ -475,6 +495,11 @@ width: 100%;
 .sub-heading{
     font-size: 40px;
 }
+/* HOME */
+.review-column{
+    margin-left: 15% !important;
+    margin-right: 25% !important;
+ }
 
 /* MENU */
 .menu-container{
@@ -522,6 +547,11 @@ width: 100%;
  .navbar{
 
 }
+/* HOME */
+.review-column{
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+ }
 /* MENU */
 .menu-container{
     padding: 10%;
@@ -579,6 +609,11 @@ width: 100%;
     }
 .heading{
     font-size: 64px;
+}
+/* HOME */
+.review-column{
+   margin-left: 25% !important;
+   margin-right: 25% !important;
 }
     /* MENU */
 .menu-container{

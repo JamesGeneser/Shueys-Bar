@@ -5,6 +5,13 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/Shueys-Bar/",
+
+  server: {
+    port: 3030,
+  },
+  preview: {
+    port: 8080,
+  },
 });
 
 // const path = require('path')

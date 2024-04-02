@@ -35,8 +35,8 @@ body{
     width: 100%;
 }
 .small-image{
-    width: 80%;
-        margin: 50px;
+    width: 100%;
+    margin: 50px;
 }
 
 .text-right{
@@ -232,13 +232,11 @@ a:active {
 }
 
 .menu-carousel{
-    border: 15px solid black;
-    border-left-width: 25px ;
-    border-right-width: 25px ;
+
 }
 .carousel-image{
-    height: 70vh;
-    width: 100%;
+    max-height: 70vh;
+    max-width: 100%;
 
 }
 .kids-menu-box{
@@ -326,20 +324,81 @@ width: 100%;
     }
     .menu-subtitle{
         font-size: 32px;
+          text-align: center;
     }
 
     .menu-subtitle-description{
         font-size: 14px;
+        text-align: center;
+    }
+  
+    
+    .menu-item-title{
+        text-align: center;
+
+    }
+    
+    .menu-item-description{
+        text-align: center;
+
     }
 
     .menu-row{
         text-align: center;
     }
+    /* APPLY */
+.contact-column{
+    margin-right: 5%;
+    margin-left: 5%;
+   }
 
 }
 
 
 /* SMALL: TABLETS */
+@media screen and (481px <= width <= 575px){
+    .menu-subtitle{
+
+        text-align: center;
+
+    }
+    
+    .menu-subtitle-description{
+
+        text-align: center;
+    }
+    .menu-item-title{
+        text-align: center;
+
+    }
+    
+    .menu-item-description{
+        text-align: center;
+
+    }
+}
+@media screen and (576px <= width <= 768px){
+    .menu-subtitle{
+
+        text-align: left;
+
+    }
+    
+    .menu-subtitle-description{
+
+        text-align: left;
+    }
+    .menu-item-title{
+        text-align: left;
+
+    }
+    
+    .menu-item-description{
+        text-align: left;
+
+    }
+}
+
 @media screen and (481px <= width <= 768px){
         /* NAVIGATION */
         .navigaton{
@@ -358,8 +417,8 @@ width: 100%;
     }
     /* CONTACT */
 .location{
-    text-align: left !important;
-    margin-left: 100px;
+    /* text-align: left !important;
+    margin-left: 100px; */
 }
 .phone-number{
     text-align: left !important;
@@ -369,9 +428,29 @@ width: 100%;
     font-size: 35px;
 }
 .menu-subtitle{
+    font-size: 40px;
     text-align: center;
     margin-top: 15vh;
 }
+
+.menu-subtitle-description{
+    font-size: 16px;
+
+}
+.menu-item-title{
+
+    font-size: 36px;
+}
+
+.menu-item-description{
+
+    font-size: 16px;
+}
+/* APPLY */
+.contact-column{
+    margin-right: 20%;
+    margin-left: 20%;
+   }
 }
 
 /* MEDIUM: SMALL SCREENS & LAPTOPS */
@@ -429,6 +508,11 @@ width: 100%;
     text-align: left;
     font-size: 16px;
 }
+/* APPLY */
+.contact-column{
+ margin-right: 25%;
+ margin-left: 25%;
+}
 
 }
 
@@ -474,13 +558,8 @@ width: 100%;
     font-size: 16px;
 }
 /* APPLY */
-.apply-container{
-    max-width: 20% !important;
-}
-.form{
-    /* max-width: 45%;
-    min-width: 45%; */
-}
+
+
 
 }
 
@@ -517,6 +596,9 @@ width: 100%;
 .menu-subtitle-description{
     font-size: 20px;
     text-align: left;
+}
+.menu-item-row{
+    margin-left: 5%;
 }
 .menu-item-title{
     text-align: left;

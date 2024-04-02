@@ -48,7 +48,7 @@ function Menu (){
         </Row>
         <Container className="appetizer-container">
 
-        <Row className='menu-item-row ms-5'>
+        <Row className='menu-item-row '>
             <Col>
             <p className='menu-item-title'>Shuey's Fries</p>
             <p className='menu-item-description'>Warm queso topped with fries, bacon bits & fresh herbs. $13.99</p>
@@ -93,7 +93,7 @@ function Menu (){
             
         </Row>
 
-        <Carousel indicators={false} className='menu-carousel d-block d-sm-none'>
+        <Carousel indicators={false} className='text-center menu-carousel d-block d-sm-none'>
       <Carousel.Item>
       <img src={RuebenRolls} className="carousel-image" alt="Rueben Rolls" />
      
@@ -150,7 +150,7 @@ function Menu (){
             </Col>  
         </Row>
 
-        <Carousel indicators={false}  className='menu-carousel d-xs-block d-sm-none'>
+        <Carousel indicators={false}  className='text-center menu-carousel d-xs-block d-sm-none'>
             <Carousel.Item>
                 <img src={SteakhouseBurger} className="carousel-image" alt="Steakhouse Burger" />
            
@@ -210,7 +210,7 @@ function Menu (){
         
  
 
-            <Carousel indicators={false}  className='menu-carousel d-block d-sm-none'>
+            <Carousel indicators={false}  className='text-center menu-carousel d-block d-sm-none'>
                 <Carousel.Item>
                     <img src={ChickenCordonBleu} className="carousel-image" alt="Chicken Cordon Bleu" />
                  
@@ -261,7 +261,7 @@ function Menu (){
             </Row>
 
 
-            <Carousel indicators={false}  className='menu-carousel d-block d-sm-none'>
+            <Carousel indicators={false}  className='text-center menu-carousel d-block d-sm-none'>
                 <Carousel.Item>
                     <img src={ChickenSalad} className="carousel-image" alt="Chicken Salad" />
                

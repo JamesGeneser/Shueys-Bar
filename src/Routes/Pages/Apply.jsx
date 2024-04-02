@@ -27,6 +27,7 @@ const sendEmail = (e) => {
     (error) => {
       console.log('FAILED...', error.text);
     },
+    e.target.reset()
   );
 }
 
@@ -49,7 +50,7 @@ const sendEmail = (e) => {
         <Col className='d-flex flex-column align-items-center mt-4 contact-column'>
           <h2 className='sub-heading bebas mb-4'>Contact Form</h2>
 
-          <Form ref={form} onSubmit={sendEmail} className='pt-2 m-1 mb-4 form align-items-center'>
+          <Form ref={form} onSubmit={sendEmail}  className='pt-2 m-1 mb-4 form align-items-center'>
 
             <Form.Group className="mb-3 m-4 form-input" controlId="FirstLastName">
               <Form.Label variant="dark" className='mt-4 form-text d-flex justify-content-left'>First and last name</Form.Label>

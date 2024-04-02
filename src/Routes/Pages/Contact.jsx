@@ -268,11 +268,6 @@ export default function Contact() {
         </a>
 
 
-  
-        
-
-
-
         </div>
 
         <Row className='text-center mt-4 d-block d-sm-none'>

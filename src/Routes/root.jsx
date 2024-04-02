@@ -5,11 +5,7 @@
 export default function Root() {
     return (
       <>
-       {/* <div id="detail">
-      <Navigation/>
 
-        <Outlet />
-      </div> */}
    
       </>
     );

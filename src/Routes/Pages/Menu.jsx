@@ -32,7 +32,7 @@ function Menu (){
 
       <img src={MenuBanner} className="menu-banner"/>
     <Container className='menu-container'>
-        <Row className='text-center'><h2 className='heading  '>Menu</h2></Row>
+        <Row className='text-center mt-5'><h2 className='heading  '>Menu</h2></Row>
 
         <Row className='m-4' id="top">
             <Col className='text-center' xs="4"><p><a className='menu-navigation' href="#appetizers">Appetizers</a></p></Col>
@@ -302,7 +302,7 @@ function Menu (){
             </Container>
         <Container className='kids-menu-features-container'>
             <Row>
-            <Col className='kids-menu-box text-center m-4 p-4'>
+            <Col md={12} lg={5} className='kids-menu-box text-center m-4 p-4'>
             <h3 className='menu-section-title bebas' id="kidsmenu">Kids Menu</h3>
             <div className='public-sans '>
             <p >12 & under, please. All items are served with one side: French fries or apple sauce. $7.99</p>
@@ -311,10 +311,10 @@ function Menu (){
             <p className='mb-0'>Grilled Cheese</p>
             </div>
             </Col>
-            <Col className='features-box text-center m-4 p-4'>
+            <Col md={12} lg={5} className='features-box text-center m-4 p-4'>
             <h3 className='menu-section-title bebas'>Ask your server about our weekday features!</h3>
             <div className='public-sans'>
-            <p className='mb-0 mt-5'>We have soup!</p>
+            <p className='mb-0 mt-3'>We have soup!</p>
             <p>Coca-cola products avaliable.</p>
             </div>
             </Col>

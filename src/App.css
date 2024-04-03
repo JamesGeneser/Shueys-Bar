@@ -199,7 +199,9 @@ a:active {
     font-family: 'Bebas Neue', sans-serif;
     color: black;
 }
-
+.menu-section-title{
+    font-size: 36px;
+}
 .menu-subtitle{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 32px;
@@ -467,6 +469,11 @@ width: 100%;
     position: relative;
     top: 1vh;
 }
+/* HOME */
+.review-column{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
 .facebook-logo-footer{
     width: 55px;
 }
@@ -522,6 +529,12 @@ width: 100%;
  /* NAVBAR */
  .navbar{
 
+}
+
+/* HOME */
+.review-column{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 /* MENU */
 .menu-container{
@@ -580,6 +593,13 @@ width: 100%;
     }
 .heading{
     font-size: 64px;
+}
+.patio-image{
+    width: 80%;
+}
+.review-column{
+    margin-left: 15% !important;
+    margin-right: 15% !important;
 }
     /* MENU */
 .menu-container{

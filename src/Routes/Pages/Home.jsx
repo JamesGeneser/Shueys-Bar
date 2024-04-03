@@ -41,7 +41,7 @@ return(
         <Container fluid className='happy-hour-container  '>
             <Row className='text-center'> 
                 <Col lg={6} className="	d-none d-lg-block">
-                    <img className='border ' src={Windows} alt='View of patio through the windows'></img>
+                    <img className='border patio-image' src={Windows} alt='View of patio through the windows'></img>
                 </Col>
                 <Col xs={12} lg={5} className="specials m-2  p-2"> 
                     <h2 className='heading'>Happy Hour</h2>
@@ -59,7 +59,7 @@ return(
 
 
 
-    <Row className='text-center'>
+    <Row className='text-center mt-5'>
         <Col><h2 className='heading'>Follow us on Facebook</h2>
         <p>Click below to learn about upcoming events or buy a Shuey’s giftcard!</p>
         </Col>

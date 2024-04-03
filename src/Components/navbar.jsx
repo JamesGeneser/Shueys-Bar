@@ -35,11 +35,11 @@ function Navigation() {
 
           <Col md={6} lg={8} className="mt-auto mb-0 d-none d-md-block bebas"> 
      
-            <Link className="navigation-item"  to="Shueys-Bar/">Home</Link>
-            <Link className="navigation-item"  to="Shueys-Bar/menu">Menu</Link>
-            <Link className="navigation-item"  to="Shueys-Bar/contact">Contact</Link>
-            <Link className="navigation-item"  to="Shueys-Bar/about">About</Link>
-            <Link className="navigation-item"  to="Shueys-Bar/apply">Apply</Link>
+            <Link className="navigation-item"  to="ShueysBar/">Home</Link>
+            <Link className="navigation-item"  to="ShueysBar/menu">Menu</Link>
+            <Link className="navigation-item"  to="ShueysBar/contact">Contact</Link>
+            <Link className="navigation-item"  to="ShueysBar/about">About</Link>
+            <Link className="navigation-item"  to="ShueysBar/apply">Apply</Link>
 
 
           

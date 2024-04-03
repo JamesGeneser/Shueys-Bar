@@ -23,7 +23,7 @@ function App() {
 
     <Routes>
 
-      <Route path="Shueys-Bar/" element={<Home/>} />
+      <Route path="ShueysBar/" element={<Home/>} />
       <Route path="Shueys-Bar/menu" element={<Menu/>} />
       <Route path="Shueys-Bar/contact" element={<Contact/>} />
       <Route path="Shueys-Bar/about" element={<About/>} />

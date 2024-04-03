@@ -13,7 +13,7 @@ import Apply from './routes/Pages/Apply.jsx'
 import "@fontsource/bebas-neue"; // Defaults to weight 400.
 // Supports weights 100-900
 import '@fontsource-variable/public-sans';
-import * as bootstrap from 'bootstrap'
+
 
 
 

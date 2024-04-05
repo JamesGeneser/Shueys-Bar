@@ -24,10 +24,10 @@ function App() {
     <Routes>
 
       <Route path="/" element={<Home/>} />
-      <Route path="ShueysBar/menu" element={<Menu/>} />
-      <Route path="ShueysBar/contact" element={<Contact/>} />
-      <Route path="ShueysBar/about" element={<About/>} />
-      <Route path="ShueysBar/apply" element={<Apply/>} />
+      <Route path="/menu" element={<Menu/>} />
+      <Route path="/contact" element={<Contact/>} />
+      <Route path="/about" element={<About/>} />
+      <Route path="/apply" element={<Apply/>} />
 
     </Routes>
     <Footer/>

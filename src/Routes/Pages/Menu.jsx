@@ -30,7 +30,7 @@ function Menu (){
        <>
 
 
-      <img src={MenuBanner} className="menu-banner"/>
+      <img src={MenuBanner} className="menu-banner img-fluid"/>
     <Container className='menu-container'>
         <Row className='text-center mt-5'><h2 className='heading  '>Menu</h2></Row>
 
@@ -46,7 +46,7 @@ function Menu (){
             <h3 className='menu-subtitle mb-3' id="appetizers">Appetizers</h3>
             <p className='menu-subtitle-description p-3'>Each appetizer includes one sauce: Shuey’s Sauce, Ranch, Bleu Cheese, Garlic Parm, BBQ, Buffalo, Sweet Chili, Teriyaki, French, Honey Mustard, Thousand Island, Asian, Peppered Ranch or Balsamic Vinaigrette. Extra sauce - $1.00</p>
         </Row>
-        <Container className="appetizer-container">
+        <Container className="menu-item-container">
 
         <Row className='menu-item-row '>
             <Col>
@@ -86,9 +86,9 @@ function Menu (){
             </Col>
             <Col className='d-none d-sm-block'>
                 <img src={RuebenRolls} alt="rueben rolls" className='small-image me-0'/>
-                <img src={ShueysNachos} alt="shueys nachos" className='small-image'/>
-                <img src={ChickenQuesadilla} alt="chicken quesadilla" className='small-image skew-right'/>
-                <img src={Wings} alt="wings" className='small-image' />
+                <img src={ShueysNachos} alt="shueys nachos" className='small-image skew-left'/>
+                <img src={ChickenQuesadilla} alt="chicken quesadilla" className='small-image '/>
+                <img src={Wings} alt="wings" className='small-image skew-right' />
             </Col>
             
         </Row>
@@ -120,7 +120,7 @@ function Menu (){
         <p className='menu-subtitle-description'>Add cheese for $1.00 or bacon for $2.00. All burgers are served with french fries. Substitute cottage cheese or coleslaw for $2.99 or a side salad for $4.29. *All burgers cooked medium well.</p>
     </Row>
 
-    <Container className='burger-container'>
+    <Container className='menu-item-container'>
 
 
 
@@ -144,8 +144,8 @@ function Menu (){
             </Col>
 
             <Col className='d-none d-sm-block'>
-                <img src={SteakhouseBurger} alt="steak house burger" className='small-image skew-right'/>
-                <img src={DudekBurger} alt="dudek burger" className='small-image'/>
+                <img src={SteakhouseBurger} alt="steak house burger" className='small-image '/>
+                <img src={DudekBurger} alt="dudek burger" className='small-image skew-right'/>
 
             </Col>  
         </Row>
@@ -170,7 +170,7 @@ function Menu (){
             <p className='menu-subtitle-description'>All sandwiches are served with french fries. Substitute cottage cheese or coleslaw for $2.99 or a side salad for $4.29.</p>
         </Row>
         
-        <Container className='sandwich-container '>
+        <Container className='menu-item-container '>
             <Row className='menu-item-row'>
             <Col>
             <p className='menu-item-title'>Shuey's BLT</p>
@@ -202,9 +202,9 @@ function Menu (){
             </Col>
 
             <Col className='d-none d-sm-block'>
-                <img src={ChickenCordonBleu} alt="chicken cordon bleu" className='small-image skew-right'/>
+                <img src={ChickenCordonBleu} alt="chicken cordon bleu" className='small-image skew-left'/>
                 <img src={BurntEndsMacAndCheese} alt="burnt ends mac and cheese" className='small-image'/>
-                <img src={Tenderloin} alt="tenderloin" className='small-image'/>
+                <img src={Tenderloin} alt="tenderloin" className='small-image skew-left'/>
             </Col> 
             </Row>
         
@@ -235,7 +235,7 @@ function Menu (){
             <p className='menu-subtitle-description'>Dressings: Ranch, Thousand Island, Bleu Cheese, French, Honey Mustard, Peppered Ranch or Balsamic Vinaigrette.</p>
         </Row>
 
-        <Container className='salad-container text-center'>
+        <Container className='menu-item-container text-center'>
             <Row className='menu-item-row '>
                 <Col>
                 <p className='menu-item-title'>Asian Chicken Salad</p>
@@ -255,8 +255,8 @@ function Menu (){
 
                 </Col>
                 <Col className='d-none d-sm-block'>
-                <img src={ChickenSalad} alt="chicken salad" className='small-image skew-right'/>
-                <img src={TacoSalad} alt="taco salad" className='small-image'/>
+                <img src={ChickenSalad} alt="chicken salad" className='small-image'/>
+                <img src={TacoSalad} alt="taco salad" className='small-image skew-left'/>
                 </Col> 
             </Row>
 
@@ -279,7 +279,7 @@ function Menu (){
         <h3 className='menu-subtitle' id="wraps">Wraps</h3>
         <p className='menu-subtitle-description'>All wraps served with french fries. Substitute cottage cheese or coleslaw for $2.99 or a side salad for $4.29.</p>
         </Row>
-        <Container className='wrap-container'>
+        <Container className='menu-item-container'>
                 <Row className='menu-row '>
                 <Col>
                 <p className='menu-item-title'>Bang Bang Wrap</p>

@@ -15,6 +15,7 @@ import HamburgerButton from '../images/HamburgerButton.svg'
 import { useEffect } from 'react';
 import { Navbar } from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import FacebookLogo from '../images/FacebookLogo.svg'
 
 export default function SlideMenu() {
 
@@ -47,11 +48,12 @@ export default function SlideMenu() {
                         <div className='d-flex flex-column'>
                         <img src={ShueysLogo} className="slide-menu-logo" alt='Shueys logo'/>
 
-                            <Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/">Home</Link>
-                            <Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/menu">Menu</Link>
-                            <Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/contact">Contact</Link>
-                            <Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/about">About</Link>
-                            <Link className="slide-navigation-item"  as={NavLink} to="Shueys-Bar/apply">Apply</Link>
+                            <Link className="slide-navigation-item"  as={NavLink} to="/">Home</Link>
+                            <Link className="slide-navigation-item"  as={NavLink} to="/menu">Menu</Link>
+                            <Link className="slide-navigation-item"  as={NavLink} to="/contact">Contact</Link>
+                            <Link className="slide-navigation-item"  as={NavLink} to="/about">About</Link>
+                            <Link className="slide-navigation-item"  as={NavLink} to="/apply">Apply</Link>
+                            <a href="https://www.facebook.com/shueysrestaurant/"><img src={FacebookLogo} alt="Facebook Logo" className=""/> </a>
                         </div>
 
 

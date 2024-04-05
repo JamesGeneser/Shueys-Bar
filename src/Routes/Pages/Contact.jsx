@@ -1,14 +1,44 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ContactBanner from '../../images/contact-banner.jpeg';
 import Patio from '../../images/patio.jpeg';
 import { Button } from 'react-bootstrap';
+import { useState } from 'react';
+import Form from 'react-bootstrap/Form';
+import emailjs from '@emailjs/browser';
+
+import Modal from 'react-bootstrap/Modal';
 
 import ShueysMap from '../../images/shueys-location-map.png'
 
 export default function Contact() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const form = useRef()
+const sendEmail = (e) => {
+  e.preventDefault()
+
+
+  emailjs
+  .sendForm('service_wj9143v', 'template_35icehm', form.current, {
+    publicKey: 'tP_BuxVG15lZc9BQO',
+  })
+  .then(
+    () => {
+      console.log('SUCCESS!');
+    },
+    (error) => {
+      console.log('FAILED...', error.text);
+    },
+    e.target.reset()
+
+  );
+}
   return (
     <>
           <img src={ContactBanner} className="image" fluid/>
@@ -283,15 +313,51 @@ export default function Contact() {
             <p>Feel free to give us a call to reserve a table or discuss catering options! For other inquiries, click below:</p>
           </Col>
         </Row>
-        <Row className='text-center mb-3'>
+        <Row className='text-center mb-5'>
           <Col>
-            <Button className='button'> Email us</Button>
+            <Button className='button'  onClick={handleShow}> Email us</Button>
+
           </Col>
         </Row>
  
 
 
       </Container>
+
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+
+          <Modal.Title className='bebas modal-title'>Contact Us</Modal.Title>
+
+         
+        </Modal.Header>
+        <Modal.Body>
+          
+        <Form ref={form} onSubmit={sendEmail}>
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label className='bebas modal-subtitle'>Email address</Form.Label>
+        <Form.Control name='user_email' type="email" />
+
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formMessage">
+        <Form.Label className='bebas modal-subtitle'>Your Message</Form.Label>
+        <Form.Control name="message" type="message"  as="textarea" rows={3} />
+      </Form.Group>
+
+      <Button className='button' variant="primary" type="submit" >
+        Submit
+      </Button>
+    </Form>
+
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   )
 }

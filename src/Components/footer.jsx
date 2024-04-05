@@ -28,7 +28,7 @@ return(
             <Col className="d-none d-sm-none d-md-block d-flex justify-content-start ps-0" md={4} lg={4} xl={4}>
                 <p className="footer-heading">Hours:</p>
                     <Row className="">
-                        <Col className="p-0" md={6} lg={4}>
+                        <Col className="p-0" md={6} lg={2}>
                             <p className="footer-text-left">Sun-Thu</p>
                         </Col>
                         <Col md={6} lg={5}>
@@ -39,7 +39,7 @@ return(
                    
                     </Row>
                     <Row>
-                        <Col className="p-0" md={6} lg={4}>
+                        <Col className="p-0" md={6} lg={2}>
                             <p className="footer-text-left">Fri-Sat</p>
                         </Col>
                         <Col md={6} lg={5}>

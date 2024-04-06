@@ -38,7 +38,7 @@ body{
 }
 .heading{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
+    font-size: 48px;
 }
 .image{
     width: 100%;
@@ -154,7 +154,7 @@ z-index: 99;
 }
 
 .facebook-logo-footer{
-    width: 4vw;
+max-width: 5vw;
 }
 .footer-location-text{
     text-align: left;
@@ -332,16 +332,28 @@ width: 100%;
         top: 35px;
     }
 
+    /* HOME */
 
 
     .sub-heading{
         font-size: 36px;
+    }
+    .home-text{
+        font-size: 16px;
     }
 
     .review-carousel-text{
         padding-bottom: 4% !important;
         padding: 10%!important;
         margin-bottom: 0% !important;
+    }
+    .madis-review-panel{
+   padding-right: 2% !important;
+   padding-left: 2% !important;
+    }
+    .madis-review{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
     }
 
 
@@ -384,6 +396,13 @@ width: 100%;
     margin-right: 5%;
     margin-left: 5%;
    }
+   /* ABOUT */
+   .about-text{
+    font-size: 16px;
+   }
+   .about-row{
+    margin-top: 0% !important;
+   }
 
 }
 
@@ -411,6 +430,11 @@ width: 100%;
     }
 }
 @media screen and (576px <= width <= 768px){
+    /* HOME */
+    .home-text{
+        font-size: 20px;
+    }
+    /* MENU */
     .menu-subtitle{
 
         text-align: left;
@@ -442,11 +466,15 @@ width: 100%;
         top: 50px;
     }
     .facebook-logo-footer{
-        width: 10vw
+   
     }
 
     .sub-heading{
         font-size: 40px;
+    }
+    /* HOME */
+    .home-text{
+        font-size: 20px;
     }
     /* CONTACT */
 .location{
@@ -512,6 +540,9 @@ width: 100%;
     top: 1vh;
 }
 /* HOME */
+.home-text{
+    font-size: 20px;
+}
 .review-column{
     margin-left: 10% !important;
     margin-right: 10% !important;
@@ -578,6 +609,9 @@ width: 100%;
 
 
 /* HOME */
+.home-text{
+    font-size: 24px;
+}
 .review-column{
     margin-left: 10% !important;
     margin-right: 10% !important;
@@ -639,6 +673,12 @@ width: 100%;
     }
 .heading{
     font-size: 64px;
+}
+.home-text{
+    font-size: 24px;
+}
+.pancakes{
+    margin-left:10% ;
 }
 .patio-image{
     width: 80%;

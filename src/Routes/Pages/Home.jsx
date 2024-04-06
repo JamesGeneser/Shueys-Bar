@@ -21,18 +21,18 @@ export default function Home() {
 return(
     <>
       <img fluid src={HomeBarView} alt='View of Shueys Bar' className='image '/>
-    <Container fluid className='p-0'>
+    <Container fluid className='p-0 mt-5'>
     
     
   
-        <Container fluid className='special-events-container p-5'>
+        <Container fluid className='special-events-container '>
             <Row className="text-center mt-3">
-                <Col xs={12 } md={5} lg={5} className="special-events m-2 p-0">
+                <Col xs={12} sm={10} md={5} lg={5} className="special-events m-2 p-0">
                     <h2 className='heading'>Special Events</h2>
-                    <p>Come on by for some breakfast at Shuey’s! Pancakes, eggs, and more are served from 8:00am - 11:00am on Saturdays and Sundays. You can also join us for DJ Trivia Nights every Wednesday at 6:30pm! For more information on upcoming events, follow the Shuey’s Restaurant & Lounge Facebook page.</p>
+                    <p className='home-text'>Come on by for some breakfast at Shuey’s! Pancakes, eggs, and more are served from 8:00am - 11:00am on Saturdays and Sundays. You can also join us for DJ Trivia Nights every Wednesday at 6:30pm! For more information on upcoming events, follow the Shuey’s Restaurant & Lounge Facebook page.</p>
                 </Col>
 
-                <Col xs={10} md={6} lg={6} className="pancakes">
+                <Col  lg={5} className="pancakes">
                     <img className='border image' src={Pancakes} alt='Pancakes'/>
                 </Col>
             </Row>
@@ -45,7 +45,7 @@ return(
                 </Col>
                 <Col xs={12} lg={5} className="specials m-2  p-2"> 
                     <h2 className='heading'>Happy Hour</h2>
-                    <p>Shuey’s serves a variety of domestic and imported beers with a full services bar. We also offer soft drink Coke products. Stop by our weekday happy hour from 2:30pm - 5:30pm for $1.00 off of wells and domestics!</p>
+                    <p className='home-text'>Shuey’s serves a variety of domestic and imported beers with a full services bar. We also offer soft drink Coke products. Stop by our weekday happy hour from 2:30pm - 5:30pm for $1.00 off of wells and domestics!</p>
                 </Col>
 
   
@@ -76,15 +76,15 @@ return(
             <h2 className='heading text-center'>Reviews</h2>
 
             <Carousel indicators={false} className="align-items-center" activeIndex={index} onSelect={handleSelect}>
-                <Carousel.Item className="review-carousel text-center ps-5 pe-5">
-                    <p className='mt-1 mb-1 p-5 review-carousel-text'>“Went to Shuey's to watch the Iowa game with my family and had a super positive experience! The food was great (I got the chicken quesadilla), the staff was nice and chatted with us for a bit, and the energy there for the game was super fun. Probably our new go-to spot for games!”</p>
+                <Carousel.Item className="review-carousel madis-review-panel text-center ps-5 pe-5">
+                    <p className='mt-1 mb-1 p-5 review-carousel-text madis-review'>“Went to Shuey's to watch the Iowa game with my family and had a super positive experience! The food was great (I got the chicken quesadilla), the staff was nice and chatted with us for a bit, and the energy there for the game was super fun. Probably our new go-to spot for games!”</p>
                     <div className='d-flex justify-content-end me-5 e'>
                         <p >-Madison S.</p>
                     </div>
                     
                 </Carousel.Item>
                 
-                <Carousel.Item className="review-carousel text-center ps-5 pe-5">
+                <Carousel.Item className="review-carousel madis-review-panel text-center ps-5 pe-5">
                     <p className='mt-4 mb-5 p-5 review-carousel-text'>I liked the quesadilla that I ordered. Plenty of TVs to watch any sports you may desire. Service was quick and accurate. Their new building is quite the upgrade!</p>
                     <div className='d-flex justify-content-end me-5 '>
                     <p>-Nick B.</p>

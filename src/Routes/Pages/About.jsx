@@ -12,15 +12,15 @@ export default function About() {
       <Container fluid className="about-container">
         
         <Row>
-          <Col>
+          <Col className='mt-5'>
             <h2 className='heading text-center'>Shuey's Story</h2>
           </Col>
         </Row>
 
 
 
-        <Row className='d-flex justify-content-center'>
-          <Col md={6} className="text-center m-1 p-4">
+        <Row className='m-5 about-row d-flex justify-content-center'>
+          <Col md={10} lg={6} className="text-center m-1 p-4 about-text">
             <p>Known as the “Cheers” of Shueyville, Shuey’s Restaurant & Lounge is a local hot spot for neighborhood gatherings, watching Iowa athletics, or enjoying a nice bite to eat. </p>
             <br/>
             <p>
@@ -31,7 +31,7 @@ export default function About() {
                Conveniently located between Iowa City and Cedar Rapids, Shuey’s is the perfect place to stop in and enjoy a good meal!
             </p>
           </Col>
-          <Col className='m-2' md={6}>
+          <Col className='m-2' md={10} lg={5}>
             <img src={ShueysStory} className="image border-vertical"/>
           </Col>
         </Row>
